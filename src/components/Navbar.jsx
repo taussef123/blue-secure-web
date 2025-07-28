@@ -23,10 +23,10 @@ const Navbar = ()=>{
               <Link to="/contactus">ContactUs</Link>
             </li>
             <li className="hover:text-blue-600 cursor-pointer hover:underline">
-              <Link to="signIn">SignIn</Link>
+              <Link to="signin">SignIn</Link>
             </li>
             <li className="hover:text-blue-600 cursor-pointer hover:underline">
-              <Link to="signUp">SignUp</Link>
+              <Link to="signup">SignUp</Link>
             </li>
           </ul>
         </nav>
