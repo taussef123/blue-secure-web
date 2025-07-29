@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router";
+import { useAuthContext } from "../Context/AuthContext";
 
 
 const SignIn = ()=>{
+  const navigate = useNavigate()
+ const{users,logIn,loading}= useAuthContext()
   const[formData,setFormData]=useState({
     email:"",
     password:"",
@@ -17,19 +21,36 @@ const SignIn = ()=>{
   }
 
   const handleSubmit = (event)=>{
-    event.preventDefault()
-    if(formData.email==="admin@example.com" && formData.password==="123456"){
-    alert("User Logged successfully.")
-    }else{
-      alert("Invalid credentials")
-    }
-    console.log("Form Submitted",formData);
+   event.preventDefault()
+
+   const userFound =users.find((user)=>user.email===formData.email && user.password===formData.password)
+    console.log("User found:", userFound);
+    console.log("All users in context:", users);
+   if(userFound){
+    const success =logIn(formData.email,formData.password);
+    if(success){
+      alert("User Logged in successfully.");
+      navigate("/admin");
+}else{
+  alert("Invalid email or password")
+}
+    
+   }else{
+    alert("Invalid email or password")
+   }
+
+
+   console.log("Trying to log in with:",formData);
+   
     
       setFormData({
         email:"",
         password:"",
       })
   }
+    if (loading) {
+      return <p className="text-center mt-10">Loading user data...</p>;
+    }
     return (
       <form 
       onSubmit={handleSubmit}
@@ -66,3 +87,18 @@ const SignIn = ()=>{
 }
 
 export default SignIn;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

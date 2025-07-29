@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import { useAuthContext } from "../Context/AuthContext";
 
 
 const SignUp = () => {
   const navigate =useNavigate()
+   const {registerUser,users}  =useAuthContext()
   const [formData,setFormData]=useState({
     username:"",
     email:"",
@@ -28,9 +30,27 @@ const SignUp = () => {
       return;
       
     }
+      //  check if email already exist
+      const alreadyExists=users.some((u)=>u.email===formData.email)
+     if(alreadyExists){
+      alert("User already registered with this email")
+      return;
+     }
+      // Register the user
+      console.log("Registering user:", {
+        username: formData.username,
+        email: formData.email,
+        password: formData.password,
+      });
 
-    console.log("Form submitted successfully",formData);
-    alert("Sign Up successfully")
+
+      registerUser({
+        username:formData.username,
+        email:formData.email,
+        password:formData.password,
+      })
+      
+      alert("Sign Up successfully")
     setFormData({
       username:"",
       email:"",

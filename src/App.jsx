@@ -11,34 +11,40 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp"
 
 import {Routes,Route} from "react-router-dom"
+import Admin from './pages/Admin';
+import ProtectedRoute from './components/ProtectedRoute';
+
 function App() {
   
 
   return (
-    
     <>
       <div className="flex flex-col min-h-screen">
-        <header className='w-full'>
+        <header className="w-full">
           <Navbar />
         </header>
-        <main className='mt-[128px]'>
+        <main className="mt-[128px]">
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/services" element={<Services/>}/>
-            <Route path="/aboutus" element={<AboutUs/>}/>
-            <Route path="/contactus" element={<ContactUs/>}/>
-            <Route path="/signIn" element={<SignIn/>}/>
-            <Route path="/signUp" element={<SignUp/>}/>
-             
-
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="/signUp" element={<SignUp />} />
+            <Route path="/signIn" element={<SignIn />} />
+            {/* Protected Route */}
+            <Route path='/admin'
+            element={
+              <ProtectedRoute>
+                <Admin/>
+              </ProtectedRoute>
+            }
+            />
           </Routes>
-
         </main>
-        <footer className='w-full'>
-          <Footer/>
+        <footer className="w-full">
+          <Footer />
         </footer>
       </div>
-     
     </>
   );
 }
