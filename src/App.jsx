@@ -13,12 +13,17 @@ import SignUp from "./pages/SignUp"
 import {Routes,Route} from "react-router-dom"
 import Admin from './pages/Admin';
 import ProtectedRoute from './components/ProtectedRoute';
+import { useAuthContext } from './Context/AuthContext';
 
 function App() {
   
-
+const{loading}=useAuthContext()
+if(loading){
+  return <p className='text-center mt-10'>Loading userdata......</p>
+}
   return (
     <>
+    
       <div className="flex flex-col min-h-screen">
         <header className="w-full">
           <Navbar />

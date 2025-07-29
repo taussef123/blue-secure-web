@@ -17,16 +17,20 @@ export  const AuthProvider = ({children})=>{
     }
 
     useEffect(()=>{
-      const storedUser=localStorage.getItem("registerUsers");
-      const loggedInUser=localStorage.getItem("currentUser")
-      if(storedUser){
-       setUsers(JSON.parse(storedUser))
+      setTimeout(()=>{
+        const storedUser = localStorage.getItem("registerUsers");
+        const loggedInUser = localStorage.getItem("currentUser");
+        if (storedUser) {
+          setUsers(JSON.parse(storedUser));
         }
-        if(loggedInUser){
-          setCurrentUser(JSON.parse(loggedInUser))
-          setIsLoggedIn(true)
+        if (loggedInUser) {
+          setCurrentUser(JSON.parse(loggedInUser));
+          setIsLoggedIn(true);
         }
-      setLoading(false)
+        setLoading(false);
+
+      },1500)
+      
     },[])
 
     const logIn = (email,password)=>{

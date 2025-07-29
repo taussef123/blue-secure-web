@@ -10,7 +10,7 @@ const Admin=()=>{
     }
     return (
       <div>
-        <h1>Welcome to the Admin Dashboard</h1>
+        <h1 className="text-center uppercase bg-red-400 text-white text-2xl p-4">Welcome to the Admin Dashboard</h1>
       </div>
     );
 }
