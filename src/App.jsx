@@ -28,7 +28,7 @@ if(loading){
         <header className="w-full">
           <Navbar />
         </header>
-        <main className="mt-[128px]">
+        <main >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />

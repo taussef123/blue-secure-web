@@ -17,7 +17,7 @@ export  const AuthProvider = ({children})=>{
     }
 
     useEffect(()=>{
-      setTimeout(()=>{
+     
         const storedUser = localStorage.getItem("registerUsers");
         const loggedInUser = localStorage.getItem("currentUser");
         if (storedUser) {
@@ -29,9 +29,7 @@ export  const AuthProvider = ({children})=>{
         }
         setLoading(false);
 
-      },1500)
-      
-    },[])
+  },[])
 
     const logIn = (email,password)=>{
       const matchedUser =users?.find((u)=>u.email===email && u.password===password)

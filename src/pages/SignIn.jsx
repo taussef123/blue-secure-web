@@ -52,39 +52,46 @@ const SignIn = ()=>{
       return <p className="text-center mt-10">Loading user data...</p>;
     }
     return (
-      <form 
-      onSubmit={handleSubmit}
-      className="max-w-sm mx-auto  bg-slate-200  mt-20 rounded p-10">
-        <h1 className="text-xl font-bold text-blue-600 mb-6">SignIn</h1>
-        
-        <input
-        onChange={handleChange}
-          className="w-full rounded border p-2 mb-3 border-blue-500"
-          name="email"
-          value={formData.email}
-          placeholder="Email"
-          type="email"
-          required
-        />
-       
-        <input
-          className="w-full rounded border p-2 mb-3 border-blue-500"
-          name="password"
-          onChange={handleChange}
-          value={formData.password}
-          placeholder="Password"
-          type="password"
-          required
-        />
-        <button
-          type="submit"
-          className="w-full rounded   bg-blue-600 mt-2 p-2 text-white  cursor-pointer uppercase hover:bg-blue-700"
+     
+
+        <div className="signin">
+        <form
+          onSubmit={handleSubmit}
+          className = "max-w-sm w-full   background-[rgba(255, 255, 255, 0.1)]  rounded p-10 shadow"
         >
-         login
-        </button>
-      </form>
+          <h1 className="text-xl font-bold text-slate-950 mb-6">SignIn</h1>
+
+          <input
+            onChange={handleChange}
+            className="w-full rounded border p-2 mb-3 border-cyan-400"
+            name="email"
+            value={formData.email}
+            placeholder="Email"
+            type="email"
+            required
+          />
+
+          <input
+            className="w-full rounded border p-2 mb-3 border-cyan-400"
+            name="password"
+            onChange={handleChange}
+            value={formData.password}
+            placeholder="Password"
+            type="password"
+            required
+          />
+          <button
+            type="submit"
+            className="w-full rounded   bg-cyan-400 mt-2  font-semibold p-2 text-white  cursor-pointer uppercase hover:bg-cyan-500"
+          >
+            login
+          </button>
+        </form>
+        </div>
+       
+     
     );
-}
+} 
 
 export default SignIn;
 
@@ -102,3 +109,23 @@ export default SignIn;
 
 
 
+/* Sign in */
+
+// position: relative;
+// width: 1310px;
+// height: 766px;
+
+
+
+/* Rectangle 1932 */
+
+// position: absolute;
+// left: 49.54%;
+// right: 5.57%;
+// top: 15.4%;
+// bottom: 10.7%;
+
+// background: rgba(255, 255, 255, 0.5);
+// backdrop-filter: blur(10px);
+// /* Note: backdrop-filter has minimal browser support */
+// border-radius: 20px;

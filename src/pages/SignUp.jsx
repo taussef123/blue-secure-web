@@ -62,61 +62,77 @@ const SignUp = () => {
   } 
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="max-w-sm mx-auto bg-blue-50 rounded p-6 "
-    >
-      <h1 className="text-xl font-bold text-blue-500 mb-3">SignUp</h1>
-      <input
-        onChange={handleChange}
-        className="w-full rounded border p-2 border-blue-500  mb-3"
-        type="text"
-        value={formData.username}
-        name="username"
-        placeholder="UserName"
-      />
-      <input
-        onChange={handleChange}
-        className=" w-full
+    <div className="signin">
+      <form
+        onSubmit={handleSubmit}
+        className="max-w-sm mx-auto border border-cyan-500 background-[rgba(255, 255, 255, 0.1)] rounded p-6 "
+      >
+        <h1 className="text-xl font-bold text-slate-950 mb-3">SignUp</h1>
+        <input
+          onChange={handleChange}
+          className="w-full rounded border p-2 border-cyan-400  mb-3"
+          type="text"
+          value={formData.username}
+          name="username"
+          placeholder="UserName"
+        />
+        <input
+          onChange={handleChange}
+          className=" w-full
         rounded
         border
         p-2
-        border-blue-500 mb-3 "
-        type="email"
-        value={formData.email}
-        name="email"
-        placeholder="Email"
-      />
-      <input
-        onChange={handleChange}
-        className=" w-full
+       border-cyan-400 mb-3 "
+          type="email"
+          value={formData.email}
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          onChange={handleChange}
+          className=" w-full
         rounded
         border
-        p-2  border-blue-500 mb-3"
-        type="password"
-        name="password"
-        value={formData.password}
-        placeholder="Password"
-      />
-      <input
-        onChange={handleChange}
-        className=" w-full
+        p-2 border-cyan-400 mb-3"
+          type="password"
+          name="password"
+          value={formData.password}
+          placeholder="Password"
+        />
+        <input
+          onChange={handleChange}
+          className=" w-full
         rounded
         border
-        p-2 border-blue-500 mb-3"
-        type="password"
-        value={formData.confirmPassword}
-        name="confirmPassword"
-        placeholder=" Confirm Password"
-      />
-      <button
-        type="submit"
-        className="w-full bg-blue-600 p-2 rounded text-white mt-2 hover:bg-blue-700 uppercase mb-3"
-      >
-        Sign up
-      </button>
-    </form>
+        p-2 border-cyan-400 mb-3"
+          type="password"
+          value={formData.confirmPassword}
+          name="confirmPassword"
+          placeholder=" Confirm Password"
+        />
+        <button
+          type="submit"
+          className="w-full bg-cyan-300 p-2 rounded text-white mt-2 hover:bg-cyan-400 font-semibold uppercase mb-3"
+        >
+          Sign up
+        </button>
+      </form>
+    </div>
   );
 };
 
 export default SignUp;
+
+
+
+
+
+
+
+
+//  className = "max-w-sm mx-auto  bg-slate-200  mt-20 rounded p-10";
+
+
+/* Group 10081 */
+
+
