@@ -38,13 +38,13 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="vision-section w-full min-h-screen px-4 py-16 ">
-          <div className="vision-container bg-cyan-200 w-6xl p-40 rounded-4xl hover:bg-cyan-400">
+        <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  grid place-content-center ">
+          <div className="vision-container bg-cyan-200 w-3xs sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400">
             <div className="space-y-10">
-              <h1 className=" text-cyan-700  text-5xl font-semibold">
+              <h1 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold">
                 Our Vision
               </h1>
-              <p className="text-lg tracking-wider leading-normal">
+              <p className=" text-md sm:text-lg tracking-wider leading-normal">
                 We envision a future where technology seamlessly integrates with
                 daily life, simplifying complex tasks and fostering greater
                 connection. Our commitment is to build intuitive and powerful
@@ -212,11 +212,15 @@ const Home = ()=>{
             className="bg-pink-500 
           w-[50rem] h-[30rem] p-30 space-y-20 rounded-3xl ml-7 grid place-content-center place-items-center shadow-2xl shadow-pink-800"
           >
-            <h1 className="text-4xl font-semibold">Our Commitment to Quality</h1>
+            <h1 className="text-4xl font-semibold">
+              Our Commitment to Quality
+            </h1>
             <div className="flex space-x-12">
               <span className="w-0.5 bg-black block h-20 "></span>
 
-              <h3 className="mt-6 text-2xl">"Quality is not an act, it is a habit."</h3>
+              <h3 className="mt-6 text-2xl">
+                "Quality is not an act, it is a habit."
+              </h3>
             </div>
 
             <p className="text-md space-x-3 tracking-wide leading-5">
