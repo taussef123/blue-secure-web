@@ -207,10 +207,10 @@ const Home = ()=>{
             mutual success and growth.
           </p>
         </div>
-        <div className="w-full bg-[#e9d7e5] h-screen mt-5 p-20">
+        <div className="w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
           <div
             className="bg-pink-500 
-          w-[80rem] h-[35rem] p-30 space-y-20 rounded-3xl ml-7"
+          w-[50rem] h-[30rem] p-30 space-y-20 rounded-3xl ml-7 grid place-content-center place-items-center shadow-2xl shadow-pink-800"
           >
             <h1 className="text-4xl font-semibold">Our Commitment to Quality</h1>
             <div className="flex space-x-12">
