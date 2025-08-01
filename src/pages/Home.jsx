@@ -38,9 +38,9 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  grid place-content-center ">
-          <div className="vision-container bg-cyan-200 w-3xs sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400">
-            <div className="space-y-10">
+        <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  flex flex-col sm:grid place-content-center ">
+          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400">
+            <div className=" space-y-5 sm:space-y-10">
               <h1 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold">
                 Our Vision
               </h1>
@@ -59,47 +59,47 @@ const Home = ()=>{
               What We Offer
             </h1>
 
-            <div className="flex ml-[80px]">
-              <div className="flex border-none w-1/4  h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+            <div className="  flex flex-col sm:flex-row mr-0.5 sm:ml-[80px]">
+              <div className="flex  border-none w-3xs sm:w-1/4  h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105">
                 <div>
                   <i className="bx bx-bulb text-2xl text-pink-400"></i>
                 </div>
 
                 <div className="ml-6 py-5">
-                  <h1 className="text-pink-400 text-2xl font-semibold mt-4">
+                  <h1 className="text-pink-400 text-xl sm:text-2xl font-semibold mt-4">
                     Innovative Solutions
                   </h1>
-                  <p className="mt-6 text-xl leading-6 font-serif">
+                  <p className="mt-6 text-lg sm:text-xl leading-6 font-serif">
                     Innovative Solutions Cutting-edge products designed to meet
                     your evolving needs and challenges.
                   </p>
                 </div>
               </div>
-              <div className="flex border-none w-1/4  h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 cursor-pointer hover:scale-105">
+              <div className="flex border-none w-3xs sm:w-1/4   h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 cursor-pointer hover:scale-105">
                 <div>
                   <i className="bx bxs-user text-2xl text-pink-400"></i>
                 </div>
 
                 <div className="ml-6">
-                  <h1 className="text-pink-400 text-2xl font-semibold mt-4">
+                  <h1 className="text-pink-400 text-xl sm:text-2xl  font-semibold mt-4">
                     Reliable Performance
                   </h1>
-                  <p className="mt-6 text-xl leading-6 font-serif">
+                  <p className="mt-6 text-lg sm:text-xl leading-6 font-serif">
                     Built for enduring stability and smart security, our systems
                     guarantee reliable performance across any scale.
                   </p>
                 </div>
               </div>
-              <div className="flex border-none w-1/4  h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <div className="flex border-none w-3xs sm:w-1/4   h-1/5 rounded-lg p-10 ml-10 hover:border-pink-300 hover:shadow-pink-300 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105">
                 <div>
                   <i className="bx bx-shield text-2xl text-pink-400"></i>
                 </div>
 
                 <div className="ml-6 py-5">
-                  <h1 className="text-pink-400 text-2xl font-semibold mt-8">
+                  <h1 className="text-pink-400 text-xl sm:text-2xl  font-semibold mt-8">
                     User-Centric Design
                   </h1>
-                  <p className="mt-6 text-xl leading-6 font-serif">
+                  <p className="mt-6 text-lg sm:text-xl leading-6 font-serif">
                     User-centric design experiences thoughtfully crafted to
                     prioritize your comfort, simplify your interactions.
                   </p>
