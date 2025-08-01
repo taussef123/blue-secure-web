@@ -6,31 +6,31 @@ import Client3 from "../assets/images/client-3.jpg"
 const Home = ()=>{
     return (
       <>
-        <div className="signin  flex justify-between items-center  w-full h-screen ">
-          <div className="space-y-8 p-6">
-            <h1 className="text-6xl font-bold text-white">
+        <div className="signin flex flex-col sm:flex-row justify-between items-center  w-full h-screen px-0.5 sm:px-16 ">
+          <div className=" space-y-5 px-4 sm:px-10 sm:pl-20 sm:pr-10 w-full sm:w-1/2">
+            <h1 className="text-3xl sm:text-6xl font-bold text-white ">
               Welcome to Our World
             </h1>
-            <p className="text-2xl font-semibold ">
+            <p className=" text-md sm:text-lg font-semibold ">
               Discover innovative solutions designed to elevate your experience.
             </p>
-            <span className="text-4xl font-bold text-white">
+            <span className="text-2xl sm:text-4xl font-bold text-white">
               Your Partner in Digital Transformation
             </span>
-            <p className="text-xl mt-6 font-medium">
+            <p className="text-sm sm:text-lg mt-6 font-medium">
               Empowering businesses with cutting-edge IT solutions and services.
             </p>
             <div>
-              <button className="border-2 p-3 rounded-md m-3 w-40 text-white  text-lg font-semibold bg-[#850aa1] border-purple-600 hover:bg-transparent cursor-pointer">
+              <button className="border-2 p-3 rounded-md m-3 w-35 sm:w-40 text-white  text-lg font-semibold bg-[#850aa1] border-purple-600 hover:bg-transparent cursor-pointer">
                 Learn More
               </button>
 
-              <button className="border-2 p-3 rounded-md w-40 text-white bg-transparent font-semibold text-lg  border-purple-600 hover:bg-[#850aa1]">
+              <button className="border-2 p-3 rounded-md w-30  sm:w-40 text-white bg-transparent font-semibold text-lg  border-purple-600 hover:bg-[#850aa1]">
                 Contact Us
               </button>
             </div>
           </div>
-          <div className="size-100 ml-50 mb-10 ">
+          <div className="  mr-6 sm:ml-50 mb-10 w-1/2 sm:size-80">
             <img
               src={homeImage}
               className="rounded-lg shadow-blue-500 shadow-2xl"
@@ -38,7 +38,7 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="vision-section signin ">
+        <div className="vision-section w-full min-h-screen px-4 py-16 ">
           <div className="vision-container bg-cyan-200 w-6xl p-40 rounded-4xl hover:bg-cyan-400">
             <div className="space-y-10">
               <h1 className=" text-cyan-700  text-5xl font-semibold">
