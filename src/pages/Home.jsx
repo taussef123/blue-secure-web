@@ -39,7 +39,7 @@ const Home = ()=>{
         </div>
 
         <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  flex flex-col sm:grid place-content-center ">
-          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400 mr-2">
+          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400 ml-2">
             <div className=" space-y-5 sm:space-y-10">
               <h1 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold">
                 Our Vision
@@ -141,8 +141,8 @@ const Home = ()=>{
             </div>
           </div>
         </div>
-        <div className="choose-section  w-full min-h-screen bg-[#d75be2] flex flex-col sm:grid place-content-center ">
-          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-2 ">
+        <div className="choose-section  w-full min-h-screen bg-[rgb(215,91,226)] flex flex-col sm:grid place-content-center ">
+          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-5 ">
             <div className="space-y-5  p-19 sm:p-20 rounded-4xl">
               <h1 className=" text-cyan-700  text-3xl sm:text-5xl font-semibold">
                 Why Choose Us?
@@ -182,8 +182,8 @@ const Home = ()=>{
             </h1>
           </div>
           <div className="flex justify-center items-center gap-x-5 sm:gap-x-10 p-9 sm:p-10">
-            <div className="images ">
-              <div className="flex flex-col sm:flex-row ">
+            <div className="images flex flex-col sm:flex-row ">
+              <div className=" ">
                 <img
                   src={Client1}
                   className=" w-2xs sm:w-full max-w-md rounded-2xl cursor-pointer hover:rounded-full  "
