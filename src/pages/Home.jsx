@@ -39,7 +39,7 @@ const Home = ()=>{
         </div>
 
         <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  flex flex-col sm:grid place-content-center ">
-          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400">
+          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400 mr-2">
             <div className=" space-y-5 sm:space-y-10">
               <h1 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold">
                 Our Vision
@@ -142,7 +142,7 @@ const Home = ()=>{
           </div>
         </div>
         <div className="choose-section  w-full min-h-screen bg-[#d75be2] flex flex-col sm:grid place-content-center ">
-          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-3 ">
+          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-2 ">
             <div className="space-y-5  p-19 sm:p-20 rounded-4xl">
               <h1 className=" text-cyan-700  text-3xl sm:text-5xl font-semibold">
                 Why Choose Us?
