@@ -65,7 +65,7 @@ const Home = ()=>{
                   <i className="bx bx-bulb text-2xl text-pink-400"></i>
                 </div>
 
-                <div className="ml-6 py-5">
+                <div className="ml-6 py-10">
                   <h1 className="text-pink-400 text-xl sm:text-2xl font-semibold mt-4">
                     Innovative Solutions
                   </h1>
@@ -135,21 +135,21 @@ const Home = ()=>{
             <div className="w-full max-w-md px-10 py-10 hover:border border-slate-400 hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
               <span className="w-full h-7 bg-[#f9cdf3]    block mb-4 rounded-full"></span>
               <h3 className="text-xl font-semibold mt-4">Deployment</h3>
-              <p className="text-md mt-4">
+              <p className="text-md mt-4 ">
                 Seamless integration and launch of your new solution.
               </p>
             </div>
           </div>
         </div>
-        <div className="choose-section signin ">
-          <div className="choose-container bg-cyan-200 w-5xl p-20 rounded-4xl hover:bg-cyan-400">
-            <div className="space-y-10">
-              <h1 className=" text-cyan-700  text-5xl font-semibold">
+        <div className="choose-section  w-full min-h-screen bg-[#d75be2] flex flex-col sm:grid place-content-center ">
+          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-3 ">
+            <div className="space-y-5  p-19 sm:p-20 rounded-4xl">
+              <h1 className=" text-cyan-700  text-3xl sm:text-5xl font-semibold">
                 Why Choose Us?
               </h1>
               <div className="grid grid-cols-2 grid-place-items-center ">
                 <div>
-                  <p className="text-lg tracking-wider leading-normal">
+                  <p className="  text-sm sm:text-lg tracking-wide sm:tracking-wider leading-normal">
                     We envision a future where technology seamlessly integrates
                     with daily life, simplifying complex tasks and fostering
                     greater connection. Our commitment is to build intuitive and
@@ -158,16 +158,16 @@ const Home = ()=>{
                   </p>
                 </div>
                 <div className="space-y-5 ml-20">
-                  <li className="text-lg font-serif font-semibold">
+                  <li className=" text-md sm:text-lg font-serif font-semibold">
                     Expert Team
                   </li>
-                  <li className="text-lg font-serif font-semibold">
+                  <li className=" text-md sm:text-lg font-serif font-semibold">
                     Proven Track Record
                   </li>
-                  <li className="text-lg font-serif font-semibold">
+                  <li className=" text-md sm:text-lg font-serif font-semibold">
                     Customer Satisfaction
                   </li>
-                  <li className="text-lg font-serif font-semibold">
+                  <li className=" text-md sm:text-lg font-serif font-semibold">
                     Continuous Innovation
                   </li>
                 </div>
@@ -176,36 +176,40 @@ const Home = ()=>{
           </div>
         </div>
         <div className="client-section w-full min-h-screen bg-[#ffece7] py-20">
-          <div className="space-y-5">
-            <h1 className="text-4xl ml-10 text-[#fb33c0] font-serif">
+          <div className=" space-y-2 sm:space-y-5 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl">
+            <h1 className=" text-xl sm:text-4xl ml-10 text-[#fb33c0] font-serif">
               Client Success Stories
             </h1>
           </div>
-          <div className="flex justify-center items-center gap-x-10 p-10">
-            <div>
-              <img
-                src={Client1}
-                className="w-full max-w-md rounded-2x cursor-pointer hover:rounded-full "
-              />
-            </div>
-            <div>
-              <img
-                src={Client2}
-                className="w-full max-w-md rounded-2xl hover:rounded-full "
-              />
+          <div className="flex justify-center items-center gap-x-5 sm:gap-x-10 p-9 sm:p-10">
+            <div className="images ">
+              <div className="flex flex-col sm:flex-row ">
+                <img
+                  src={Client1}
+                  className=" w-2xs sm:w-full max-w-md rounded-2xl cursor-pointer hover:rounded-full  "
+                />
+              </div>
+              <div className="mr-8">
+                <img
+                  src={Client2}
+                  className="w-2xs sm:w-full max-w-md rounded-2xl hover:rounded-full mt-6 "
+                />
+              </div>
             </div>
           </div>
           <div>
             <img
               src={Client3}
-              className="w-[59rem] h-60 rounded-2xl hover:rounded-full ml-70"
+              className="w-xs    sm:w-[59rem] sm:h-60 rounded-2xl hover:rounded-full ml-6 sm:ml-70"
             />
           </div>
-          <p className="text-md font-sans mt-10 text-center tracking-wider [word-spacing:0.1em]">
-            Our clients consistently achieve their goals with our support. We
-            pride ourselves on building strong, lasting partnerships that drive
-            mutual success and growth.
-          </p>
+          <div className="w-full sm:max-w-3xl mx-auto px-4">
+            <p className=" text-sm sm:text-md font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-8 ">
+              Our clients consistently achieve their goals with our support. We
+              pride ourselves on building strong, lasting partnerships that
+              drive mutual success and growth.
+            </p>
+          </div>
         </div>
         <div className="w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
           <div
@@ -236,3 +240,10 @@ const Home = ()=>{
 }
 
 export default Home;
+
+
+
+
+
+
+// w-sm sm:w-2xl p-20 sm:p-5 rounded-4xl
