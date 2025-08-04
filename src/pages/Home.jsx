@@ -38,8 +38,8 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  flex flex-col sm:grid place-content-center ">
-          <div className="vision-container bg-cyan-200 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl hover:bg-cyan-400 ml-2">
+        <div className="vision-section w-full min-h-screen px-4 py-16 bg-cyan-100  flex flex-col sm:grid place-content-center  ">
+          <div className="vision-container bg-cyan-200 w-4xs sm:w-6xl p-15 sm:p-40 rounded-4xl hover:bg-cyan-400 ml-6">
             <div className=" space-y-5 sm:space-y-10">
               <h1 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold">
                 Our Vision
@@ -142,8 +142,8 @@ const Home = ()=>{
           </div>
         </div>
         <div className="choose-section  w-full min-h-screen bg-[rgb(215,91,226)] flex flex-col sm:grid place-content-center ">
-          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-5 ">
-            <div className="space-y-5  p-19 sm:p-20 rounded-4xl">
+          <div className="choose-container bg-cyan-200  hover:bg-cyan-400 rounded-4xl w-sm  sm:w-4xl ml-[26px] p-3">
+            <div className="space-y-5  p-20  rounded-4xl ">
               <h1 className=" text-cyan-700  text-3xl sm:text-5xl font-semibold">
                 Why Choose Us?
               </h1>
@@ -200,21 +200,21 @@ const Home = ()=>{
           <div>
             <img
               src={Client3}
-              className="w-xs    sm:w-[59rem] sm:h-60 rounded-2xl hover:rounded-full ml-6 sm:ml-70"
+              className="w-sm    sm:w-[59rem] sm:h-60 rounded-2xl hover:rounded-full ml-7 sm:ml-70"
             />
           </div>
           <div className="w-full sm:max-w-3xl mx-auto px-4">
-            <p className=" text-sm sm:text-md font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-8 ">
+            <p className=" text-sm sm:text-md font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-6 ">
               Our clients consistently achieve their goals with our support. We
               pride ourselves on building strong, lasting partnerships that
               drive mutual success and growth.
             </p>
           </div>
         </div>
-        <div className="w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
+        <div className="  w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
           <div
             className="bg-pink-500 
-          w-[50rem] h-[30rem] p-30 space-y-20 rounded-3xl ml-7 grid place-content-center place-items-center shadow-2xl shadow-pink-800"
+        w-sm sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-6 grid place-content-center place-items-center shadow-2xl shadow-pink-800"
           >
             <h1 className="text-4xl font-semibold">
               Our Commitment to Quality
