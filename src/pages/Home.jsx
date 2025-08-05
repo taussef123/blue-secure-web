@@ -185,36 +185,30 @@ const Home = ()=>{
             </div>
           </div>
         </div>
-        <div className="client-section w-full min-h-screen bg-[#ffece7] py-10 border-8 border-slate-900">
-          <div className=" space-y-2 sm:space-y-5 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl border-8 border-slate-600">
+        <div className="client-section w-full min-h-screen bg-[#ffece7] py-10 ">
+          <div className=" space-y-2 sm:space-y-5 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl">
             <h1 className=" text-xl sm:text-4xl ml-10 text-[#fb33c0] font-serif">
               Client Success Stories
             </h1>
           </div>
-          <div className="flex justify-center items-center gap-x-5 sm:gap-x-12 p-9 sm:p-10 border-8 border-violet-700">
-            <div className="images flex flex-col sm:flex-row ">
-              <div className=" ">
+          <div className="flex justify-center items-center gap-x-5 sm:gap-x-12 p-9 sm:p-10 ">
+            <div className="images flex flex-col sm:flex-row sm:space-x-6 space-y-6 sm:space-y-0">
+              <div>
                 <img
                   src={Client1}
-                  className=" w-2xs sm:w-full max-w-md rounded-2xl cursor-pointer hover:rounded-full  "
+                  className=" w-full max-w-md rounded-2xl cursor-pointer hover:rounded-full  "
                 />
               </div>
-              <div >
+              <div>
                 <img
                   src={Client2}
-                  className="w-md sm:w-full max-w-md rounded-2xl hover:rounded-full mt-6 "
+                  className="w-full max-w-md rounded-2xl hover:rounded-full  "
                 />
               </div>
             </div>
           </div>
-          <div className="border-8 border-blue-600">
-            <img
-              src={Client3}
-              className="w-sm    sm:w-[56rem] sm:h-60 rounded-2xl hover:rounded-full ml-7 sm:ml-70"
-            />
-          </div>
-          <div className="w-full sm:max-w-3xl mx-auto px-4">
-            <p className=" text-sm sm:text-md font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-6 ">
+      <div className="w-full sm:max-w-3xl mx-auto px-4">
+            <p className=" text-md sm:text-lg font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-5 ">
               Our clients consistently achieve their goals with our support. We
               pride ourselves on building strong, lasting partnerships that
               drive mutual success and growth.
@@ -224,7 +218,7 @@ const Home = ()=>{
         <div className="  w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
           <div
             className="bg-pink-500 
-        w-sm sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-6 grid place-content-center place-items-center shadow-2xl shadow-pink-800"
+        w-[25rem] sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-2grid pt-4 place-content-center place-items-center shadow-2xl shadow-pink-800"
           >
             <h1 className="text-4xl font-semibold">
               Our Commitment to Quality
