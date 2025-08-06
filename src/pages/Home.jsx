@@ -2,7 +2,7 @@ import homeImage from "../assets/images/home.jpg";
 // import bulb from "../assets/images/bulb.png"
 import Client1 from "../assets/images/client-1.avif";
 import Client2 from "../assets/images/client-2.jpg"
-import Client3 from "../assets/images/client-3.jpg"
+import ItPic from "../assets/images/service.png"
 const Home = ()=>{
     return (
       <>
@@ -261,8 +261,53 @@ const Home = ()=>{
                   <i className="bx bxl-facebook-circle  text-3xl sm:text-4xl  md:text-5xl "></i>
                 </button>
                 <button className="btn">
-                  <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl "></i>
+                  <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl"></i>
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" question-section w-full h-screen flex items-center justify-center bg-slate-400 ">
+          <div className="max-w-4xl w-full mx-auto p-6 sm:p-10 rounded-2xl bg-slate-700">
+            <h1 className=" text-[rgb(235,78,235)] text-2xl font-semibold p-5">
+              Frequently Asked Questions
+            </h1>
+            <div className="bg-pink-200 py-6 px-6 sm:py-8 sm:px-14 rounded-xl m-5 flex flex-col ">
+              <h2 className="text-xl font-bold">How can I get started?</h2>
+              <p className="text-sm mt-2 leading-relaxed">
+                Simply reach out to our team through the contact form or give us
+                a call. We'll guide you through the initial consultation and
+                planning stages.
+              </p>
+            </div>
+            <div className="bg-pink-200 py-8 rounded-xl px-14 m-5 flex flex-col">
+              <h2 className="text-xl font-bold">
+                What is your support policy?
+              </h2>
+              <p className="text-sm mt-2 leading-relaxed">
+                We offer comprehensive support packages tailored to your needs,
+                ensuring you always have assistance when you need it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="last-section w-full bg-slate-400 ">
+          <div className="w-full  min-h-[40rem]  bg-blue-200 flex items-center ">
+            <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center ">
+              <div className="left flex">
+                <img src={ItPic} className="w-xs
+                sm:max-w-xl ml-10 sm:ml-0" />
+              </div>
+              <div className="right space-y-6">
+                <h1 className="ml-12 mt-4 sm:ml-0 sm:mt-0  text-xl sm:text-2xl text-blue-700 font-bold tracking-wider">Ready to Transform?</h1>
+                <p className=" text-md sm:text-lg ml-3  leading-6 sm:leading-8 tracking-wider text-white">
+                  Take the first step towards achieving your goals. Contact us
+                  today to discuss your project and discover how we can help you
+                  succeed.
+                </p>
+                <button className="bg-blue-600 px-10 py-5 rounded-xl cursor-pointer text-xl font-semibold text-white hover:bg-white hover:text-blue-600 transition duration-300 ease-in hover:scale-110
+                ml-[6.5rem] sm:ml-0
+                ">Get in Touch</button>
               </div>
             </div>
           </div>
