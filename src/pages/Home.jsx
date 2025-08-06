@@ -114,7 +114,7 @@ const Home = ()=>{
           </h1>
           <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6 p-10 ">
             <div className="w-full max-w-md px-10 py-12   rounded hover:border border-slate-400 hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
-              <span className="w-full h-7 bg-[#f632dc]    block mb-4 rounded-full"></span>
+              <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
               <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6">
                 Discovery
               </h3>
@@ -123,7 +123,7 @@ const Home = ()=>{
               </p>
             </div>
             <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-              <span className="w-full h-7  bg-[#f632dc]     block mb-4 rounded-full"></span>
+              <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
               <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
                 Development
               </h3>
@@ -132,7 +132,7 @@ const Home = ()=>{
               </p>
             </div>
             <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-              <span className="w-full h-7  bg-[#f632dc]     block mb-4 rounded-full"></span>
+              <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
               <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
                 Design
               </h3>
@@ -141,7 +141,7 @@ const Home = ()=>{
               </p>
             </div>
             <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
-              <span className="w-full h-7 bg-[#f632dc]    block mb-4 rounded-full"></span>
+              <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
               <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
                 Deployment
               </h3>
@@ -207,7 +207,7 @@ const Home = ()=>{
               </div>
             </div>
           </div>
-      <div className="w-full sm:max-w-3xl mx-auto px-4">
+          <div className="w-full sm:max-w-3xl mx-auto px-4">
             <p className=" text-md sm:text-lg font-sans mt-10 text-center  tracking-wide sm:tracking-wider leading-relaxed  mr-5 ">
               Our clients consistently achieve their goals with our support. We
               pride ourselves on building strong, lasting partnerships that
@@ -218,7 +218,7 @@ const Home = ()=>{
         <div className="  w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
           <div
             className="bg-pink-500 
-        w-[25rem] sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-2grid pt-4 place-content-center place-items-center shadow-2xl shadow-pink-800"
+        w-[25rem] sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-2 grid pt-4 place-content-center place-items-center shadow-2xl shadow-pink-800"
           >
             <h1 className="text-4xl font-semibold">
               Our Commitment to Quality
@@ -231,12 +231,40 @@ const Home = ()=>{
               </h3>
             </div>
 
-            <p className="text-md space-x-3 tracking-wide leading-5">
+            <p className="text-md space-x-3 tracking-wide leading-5 ">
               We adhere to the highest standards in every aspect of our work,
               from initial concept to final delivery. Our rigorous quality
               assurance processes ensure that every solution we provide is
               reliable, efficient, and exceeds expectations.
             </p>
+          </div>
+        </div>
+        <div className="w-full min-h-screen">
+          <div className="flex w-full flex-col justify-center items-center space-y-12 min-h-screen bg-slate-400 h-full p-10 sm:p-20">
+            <div className=" w-full max-w-screen px-4 py-6 sm:pt-[116px] sm:pb-[90px] overflow-hidden ">
+              <h1 className="   text-xl sm:text-4xl font-bold font-serif text-pink-300">
+                Stay Connected
+              </h1>
+              <p className=" text-lg sm:text-2xl leading-relaxed tracking-tight text-white pt-10">
+                Follow us on social media to get the latest updates, insights,
+                and news from our team. Join our community and be part of the
+                conversation.
+              </p>
+              <div className="flex flex-wrap gap-4 p-4  ">
+                <button className="btn ">
+                  <i className="bx bxl-twitter text-3xl sm:text-4xl md:text-5xl "></i>
+                </button>
+                <button className="btn ">
+                  <i className="bx bxl-linkedin text-3xl sm:text-4xl md:text-5xl "></i>
+                </button>
+                <button className="btn ">
+                  <i className="bx bxl-facebook-circle  text-3xl sm:text-4xl  md:text-5xl "></i>
+                </button>
+                <button className="btn">
+                  <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl "></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </>

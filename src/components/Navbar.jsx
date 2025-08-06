@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-import logo from "../assets/images/figma.png";
+import logo from "../assets/images/newb.jpg";
 const Navbar = ()=>{
     return (
      <div className=" w-full bg-slate-950 text-xl  px-6 py-5 ">
