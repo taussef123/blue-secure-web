@@ -1,8 +1,9 @@
 import homeImage from "../assets/images/home.jpg";
 // import bulb from "../assets/images/bulb.png"
 import Client1 from "../assets/images/client-1.avif";
-import Client2 from "../assets/images/client-2.jpg"
-import ItPic from "../assets/images/service.png"
+import Client2 from "../assets/images/client-2.jpg";
+import Client3 from "../assets/images/client-3.jpg";
+import ItPic from "../assets/images/service.png";
 const Home = ()=>{
     return (
       <>
@@ -59,7 +60,7 @@ const Home = ()=>{
               What We Offer
             </h1>
 
-            <div className="  flex flex-col sm:flex-row  sm:space-x-10 space-y-10 sm:space-y-0  mr-10 p-15 ">
+            <div className="  flex flex-col sm:flex-row  sm:space-x-10 space-y-10 sm:space-y-0  mr-10 p-20 ">
               <div className="flex  flex-col items-starts  sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
                 <div className=" p-2">
                   <i className="bx bx-bulb text-2xl text-pink-400"></i>
@@ -108,84 +109,311 @@ const Home = ()=>{
             </div>
           </div>
         </div>
-        <div className="process-section w-full min-h-screen bg-slate-400">
-          <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold   p-20 text-white">
-            Our Process
-          </h1>
-          <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6 p-10 ">
-            <div className="w-full max-w-md px-10 py-12   rounded hover:border border-slate-400 hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
-              <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
-              <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6">
-                Discovery
-              </h3>
-              <p className=" sm:text-md  md:text-lg lg:text-xl mt-4">
-                Understanding your unique requirements and objectives.
-              </p>
-            </div>
-            <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-              <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
-              <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
-                Development
-              </h3>
-              <p className="sm:text-md  md:text-lg lg:text-xl mt-4">
-                Bringing concepts to life with precision and expertise.
-              </p>
-            </div>
-            <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-              <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
-              <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
-                Design
-              </h3>
-              <p className="sm:text-md  md:text-lg lg:text-xl mt-4">
-                Crafting intuitive and effective solutions tailored for you.
-              </p>
-            </div>
-            <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
-              <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
-              <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
-                Deployment
-              </h3>
-              <p className="sm:text-md  md:text-lg lg:text-xl mt-4 ">
-                Seamless integration and launch of your new solution.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="choose-section  w-full min-h-screen bg-slate-400 flex flex-col sm:grid place-content-center ">
-          <div className="choose-container grid place-content-center bg-cyan-200  hover:bg-cyan-400  w-full rounded-4xl sm:p-10 p-5">
-            <div className="w-full max-w-screen-md lg:max-w-screen-lg p-6 sm:p-10 rounded-3xl mx-auto">
-              <h1 className=" text-cyan-700  sm:text-2xl md:text-3xl lg:text-4xl font-semibold p-4">
-                Why Choose Us?
-              </h1>
-              <div className="grid grid-cols-1 sm:grid-cols-2  p-10 gap-10 w-full">
-                <div className="container mx-auto px-6 box-border">
-                  <p className=" max-w-prose text-sm sm:text-lg tracking-wide  leading-normal  p-4 ">
-                    We envision a future where technology seamlessly integrates
-                    with daily life, simplifying complex tasks and fostering
-                    greater connection. Our commitment is to build intuitive and
-                    powerful tools that empower individuals and businesses
-                    alike.
-                  </p>
-                </div>
-                <ul className="space-y-4  sm:ml-10 ml-2 list-disc pl-5">
-                  <li className=" text-md sm:text-lg font-serif font-semibold">
-                    Expert Team
-                  </li>
-                  <li className=" text-md sm:text-lg font-serif font-semibold">
-                    Proven Track Record
-                  </li>
-                  <li className=" text-md sm:text-lg font-serif font-semibold">
-                    Customer Satisfaction
-                  </li>
-                  <li className=" text-md sm:text-lg font-serif font-semibold">
-                    Continuous Innovation
-                  </li>
-                </ul>
+
+        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl  sm:w-full  p-4 sm:p-10 mt-2 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold font-serif mb-5   text-white">
+              Our Process
+            </h1>
+            <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6  ">
+              <div className="w-full  px-10 py-12   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-full h-7 bg-[#e9bae3]    block mb-2 rounded-full"></span>
+                <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 text-white">
+                  Discovery
+                </h3>
+                <p className=" sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                  Understanding your unique requirements and objectives.
+                </p>
+              </div>
+              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-full h-7  bg-[#e9bae3]     block mb-2 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 text-white">
+                  Design
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                  Crafting intuitive and effective solutions tailored for you.
+                </p>
+              </div>
+              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-full h-7  bg-[#e9bae3]  block mb-2 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
+                  Design
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                  Crafting intuitive and effective solutions tailored for you.
+                </p>
+              </div>
+              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
+                <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
+                  Deployment
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white ">
+                  Seamless integration and launch of your new solution.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="client-section w-full min-h-screen bg-[#ffece7] py-10 ">
+        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl  sm:w-full  p-4 sm:p-18 mt-6 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1 className="  sm:text-2xl md:text-3xl lg:text-4xl text-white font-semibold p-4 font-serif">
+              Why Choose Us?
+            </h1>
+            <div className="grid grid-cols-1 sm:grid-cols-2  p-10 gap-10 w-full">
+              <div className=" mx-auto px-6 box-border">
+                <p className="  text-sm sm:text-md tracking-wide  leading-6 text-white  p-4 ">
+                  We envision a future where technology seamlessly integrates
+                  with daily life, simplifying complex tasks and fostering
+                  greater connection. Our commitment is to build intuitive and
+                  powerful tools that empower individuals and businesses alike.
+                </p>
+              </div>
+              <ul className="space-y-8  sm:ml-10 ml-2 list-disc pl-5 text-white">
+                <li className=" text-md sm:text-lg font-serif font-semibold">
+                  Expert Team
+                </li>
+                <li className=" text-md sm:text-lg font-serif font-semibold">
+                  Proven Track Record
+                </li>
+                <li className=" text-md sm:text-lg font-serif font-semibold">
+                  Customer Satisfaction
+                </li>
+                <li className=" text-md sm:text-lg font-serif font-semibold">
+                  Continuous Innovation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl  sm:w-full  p-7 sm:p-22 mt-6 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1 className=" text-xl sm:text-4xl ml-10 text-[#fb33c0] font-serif">
+              Client Success Stories
+            </h1>
+            <div className="flex justify-center items-center gap-x-5 sm:gap-x-12 p-9 sm:p-10 ">
+              <div className="images flex flex-col sm:flex-row sm:space-x-6 space-y-6 sm:space-y-0">
+                <div>
+                  <img
+                    src={Client1}
+                    className="w-4xl  sm:w-7xl rounded-2xl cursor-pointer hover:rounded-full  "
+                  />
+                </div>
+                <div>
+                  <img
+                    src={Client2}
+                    className="  w-4xl sm:w-7xl rounded-2xl hover:rounded-full  "
+                  />
+                </div>
+                <div>
+                  <img
+                    src={Client3}
+                    className=" w-4xl sm:w-7xl rounded-2xl hover:rounded-full  "
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="w-full sm:max-w-3xl mx-auto px-4">
+              <p className=" text-sm sm:text-lg font-sans mt-3 sm:mt-10 text-center  tracking-wide sm:tracking-wider leading-5 sm:leading-7 text-white  mr-5 ">
+                Our clients consistently achieve their goals with our support.
+                We pride ourselves on building strong, lasting partnerships that
+                drive mutual success and growth.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl w-full  p-6 sm:p-22 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover: shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-16">
+            <h1 className=" text-2xl sm:text-4xl font-semibold text-white font-serif ml-5 sm:ml-0">
+              Our Commitment to Quality
+            </h1>
+            <div className="flex space-x-12 space-y-10">
+              <span className="w-1 rounded-b-xl bg-white block h-22 mt-4"></span>
+
+              <h3 className="mt-10 text-xl sm:text-2xl text-white ">
+                "Quality is not an act, it is a habit."
+              </h3>
+            </div>
+            <p className=" text-sm sm:text-md space-x-3 text-white tracking-wider leading-7 ">
+              We adhere to the highest standards in every aspect of our work,
+              from initial concept to final delivery. Our rigorous quality
+              assurance processes ensure that every solution we provide is
+              reliable, efficient, and exceeds expectations.
+            </p>
+          </div>
+        </div>
+
+        <div className=" w-full h-dvh flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl w-full mx-auto p-6 sm:p-22 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1
+              className="   text-xl sm:text-4xl font-bold font-serif text-pink-300 p-2
+            ml-10 sm:ml-0"
+            >
+              Stay Connected
+            </h1>
+            <p className=" text-md sm:text-2xl leading-7 tracking-normal text-white pt-7 ml-10">
+              Follow us on social media to get the latest updates, insights, and
+              news from our team. Join our community and be part of the
+              conversation.
+            </p>
+            <div className="flex flex-wrap gap-5 p-4 mt-10 ml-5 sm:ml-0 ">
+              <button className="btn ">
+                <i className="bx bxl-twitter text-3xl sm:text-4xl md:text-5xl "></i>
+              </button>
+              <button className="btn ">
+                <i className="bx bxl-linkedin text-3xl sm:text-4xl md:text-5xl "></i>
+              </button>
+              <button className="btn ">
+                <i className="bx bxl-facebook-circle  text-3xl sm:text-4xl  md:text-5xl "></i>
+              </button>
+              <button className="btn">
+                <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className=" question-section w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="max-w-4xl w-full mx-auto p-6 sm:p-10 rounded-2xl bg-slate-700 hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+            <h1 className=" text-[rgb(235,78,235)] text-2xl font-semibold p-5">
+              Frequently Asked Questions
+            </h1>
+            <div className="bg-pink-200 py-6 px-6 sm:py-8 sm:px-14 rounded-xl m-5 flex flex-col ">
+              <h2 className="text-xl font-bold">How can I get started?</h2>
+              <p className="text-sm mt-2 leading-relaxed">
+                Simply reach out to our team through the contact form or give us
+                a call. We'll guide you through the initial consultation and
+                planning stages.
+              </p>
+            </div>
+            <div className="bg-pink-200 py-8 rounded-xl px-14 m-5 flex flex-col">
+              <h2 className="text-xl font-bold">
+                What is your support policy?
+              </h2>
+              <p className="text-sm mt-2 leading-relaxed">
+                We offer comprehensive support packages tailored to your needs,
+                ensuring you always have assistance when you need it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="last-section w-full bg-slate-400 ">
+          <div className="w-full  min-h-[40rem]  bg-blue-200 flex items-center ">
+            <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center ">
+              <div className="left flex">
+                <img
+                  src={ItPic}
+                  className="w-xs
+                sm:max-w-xl ml-10 sm:ml-0"
+                />
+              </div>
+              <div className="right space-y-6">
+                <h1 className="ml-12 mt-4 sm:ml-0 sm:mt-0  text-xl sm:text-2xl text-blue-700 font-bold tracking-wider">
+                  Ready to Transform?
+                </h1>
+                <p className=" text-md sm:text-lg ml-3  leading-6 sm:leading-8 tracking-wider text-white">
+                  Take the first step towards achieving your goals. Contact us
+                  today to discuss your project and discover how we can help you
+                  succeed.
+                </p>
+                <button
+                  className="bg-blue-600 px-10 py-5 rounded-xl cursor-pointer text-xl font-semibold text-white hover:bg-white hover:text-blue-600 transition duration-300 ease-in hover:scale-110
+                ml-[6.5rem] sm:ml-0
+                "
+                >
+                  Get in Touch
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+}
+
+export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    /* <div className="w-full min-h-screen">
+          <div className="flex w-full flex-col justify-center items-center space-y-12 min-h-screen bg-slate-400 h-full p-10 sm:p-20">
+            <div className=" w-full max-w-screen px-4 py-6 sm:pt-[116px] sm:pb-[90px] overflow-hidden ">
+              <h1 className="   text-xl sm:text-4xl font-bold font-serif text-pink-300">
+                Stay Connected
+              </h1>
+              <p className=" text-lg sm:text-2xl leading-relaxed tracking-tight text-white pt-10">
+                Follow us on social media to get the latest updates, insights,
+                and news from our team. Join our community and be part of the
+                conversation.
+              </p>
+              <div className="flex flex-wrap gap-4 p-4  ">
+                <button className="btn ">
+                  <i className="bx bxl-twitter text-3xl sm:text-4xl md:text-5xl "></i>
+                </button>
+                <button className="btn ">
+                  <i className="bx bxl-linkedin text-3xl sm:text-4xl md:text-5xl "></i>
+                </button>
+                <button className="btn ">
+                  <i className="bx bxl-facebook-circle  text-3xl sm:text-4xl  md:text-5xl "></i>
+                </button>
+                <button className="btn">
+                  <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> */
+  }
+
+
+
+
+
+
+  {
+    /* <div className="  w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
+          <div
+            className="bg-pink-500 
+        w-[25rem] sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-2 grid pt-4 place-content-center place-items-center shadow-2xl shadow-pink-800"
+          >
+            <h1 className="text-4xl font-semibold">
+              Our Commitment to Quality
+            </h1>
+            <div className="flex space-x-12">
+              <span className="w-0.5 bg-black block h-20 "></span>
+
+              <h3 className="mt-6 text-2xl">
+                "Quality is not an act, it is a habit."
+              </h3>
+            </div>
+
+            <p className="text-md space-x-3 tracking-wide leading-5 ">
+              We adhere to the highest standards in every aspect of our work,
+              from initial concept to final delivery. Our rigorous quality
+              assurance processes ensure that every solution we provide is
+              reliable, efficient, and exceeds expectations.
+            </p>
+          </div>
+        </div> */
+  }
+
+
+
+    {
+      /* <div className="client-section w-full min-h-screen bg-[#ffece7] py-10 ">
           <div className=" space-y-2 sm:space-y-5 w-sm sm:w-6xl p-20 sm:p-40 rounded-4xl">
             <h1 className=" text-xl sm:text-4xl ml-10 text-[#fb33c0] font-serif">
               Client Success Stories
@@ -214,111 +442,51 @@ const Home = ()=>{
               drive mutual success and growth.
             </p>
           </div>
-        </div>
-        <div className="  w-full bg-[#f6a1e4] h-screen mt-5 p-20 grid place-items-center place-content-center">
-          <div
-            className="bg-pink-500 
-        w-[25rem] sm:w-[50rem] sm: h-[30rem] p-10 sm:p-30 space-y-20 rounded-3xl sm:ml-7 ml-2 grid pt-4 place-content-center place-items-center shadow-2xl shadow-pink-800"
-          >
-            <h1 className="text-4xl font-semibold">
-              Our Commitment to Quality
-            </h1>
-            <div className="flex space-x-12">
-              <span className="w-0.5 bg-black block h-20 "></span>
-
-              <h3 className="mt-6 text-2xl">
-                "Quality is not an act, it is a habit."
-              </h3>
-            </div>
-
-            <p className="text-md space-x-3 tracking-wide leading-5 ">
-              We adhere to the highest standards in every aspect of our work,
-              from initial concept to final delivery. Our rigorous quality
-              assurance processes ensure that every solution we provide is
-              reliable, efficient, and exceeds expectations.
-            </p>
-          </div>
-        </div>
-        <div className="w-full min-h-screen">
-          <div className="flex w-full flex-col justify-center items-center space-y-12 min-h-screen bg-slate-400 h-full p-10 sm:p-20">
-            <div className=" w-full max-w-screen px-4 py-6 sm:pt-[116px] sm:pb-[90px] overflow-hidden ">
-              <h1 className="   text-xl sm:text-4xl font-bold font-serif text-pink-300">
-                Stay Connected
-              </h1>
-              <p className=" text-lg sm:text-2xl leading-relaxed tracking-tight text-white pt-10">
-                Follow us on social media to get the latest updates, insights,
-                and news from our team. Join our community and be part of the
-                conversation.
-              </p>
-              <div className="flex flex-wrap gap-4 p-4  ">
-                <button className="btn ">
-                  <i className="bx bxl-twitter text-3xl sm:text-4xl md:text-5xl "></i>
-                </button>
-                <button className="btn ">
-                  <i className="bx bxl-linkedin text-3xl sm:text-4xl md:text-5xl "></i>
-                </button>
-                <button className="btn ">
-                  <i className="bx bxl-facebook-circle  text-3xl sm:text-4xl  md:text-5xl "></i>
-                </button>
-                <button className="btn">
-                  <i className="bx bxl-instagram   text-3xl sm:text-4xl md:text-5xl"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" question-section w-full h-screen flex items-center justify-center bg-slate-400 ">
-          <div className="max-w-4xl w-full mx-auto p-6 sm:p-10 rounded-2xl bg-slate-700">
-            <h1 className=" text-[rgb(235,78,235)] text-2xl font-semibold p-5">
-              Frequently Asked Questions
-            </h1>
-            <div className="bg-pink-200 py-6 px-6 sm:py-8 sm:px-14 rounded-xl m-5 flex flex-col ">
-              <h2 className="text-xl font-bold">How can I get started?</h2>
-              <p className="text-sm mt-2 leading-relaxed">
-                Simply reach out to our team through the contact form or give us
-                a call. We'll guide you through the initial consultation and
-                planning stages.
-              </p>
-            </div>
-            <div className="bg-pink-200 py-8 rounded-xl px-14 m-5 flex flex-col">
-              <h2 className="text-xl font-bold">
-                What is your support policy?
-              </h2>
-              <p className="text-sm mt-2 leading-relaxed">
-                We offer comprehensive support packages tailored to your needs,
-                ensuring you always have assistance when you need it.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="last-section w-full bg-slate-400 ">
-          <div className="w-full  min-h-[40rem]  bg-blue-200 flex items-center ">
-            <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center ">
-              <div className="left flex">
-                <img src={ItPic} className="w-xs
-                sm:max-w-xl ml-10 sm:ml-0" />
-              </div>
-              <div className="right space-y-6">
-                <h1 className="ml-12 mt-4 sm:ml-0 sm:mt-0  text-xl sm:text-2xl text-blue-700 font-bold tracking-wider">Ready to Transform?</h1>
-                <p className=" text-md sm:text-lg ml-3  leading-6 sm:leading-8 tracking-wider text-white">
-                  Take the first step towards achieving your goals. Contact us
-                  today to discuss your project and discover how we can help you
-                  succeed.
-                </p>
-                <button className="bg-blue-600 px-10 py-5 rounded-xl cursor-pointer text-xl font-semibold text-white hover:bg-white hover:text-blue-600 transition duration-300 ease-in hover:scale-110
-                ml-[6.5rem] sm:ml-0
-                ">Get in Touch</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </>
-    );
-}
-
-export default Home;
+        </div> */
+    }
 
 
 
-
-
+        //  <div className="process-section w-full min-h-screen bg-slate-400">
+        //    <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold   p-20 text-white">
+        //      Our Process
+        //    </h1>
+        //    <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6 p-10 ">
+        //      <div className="w-full max-w-md px-10 py-12   rounded hover:border border-slate-400 hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
+        //        <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
+        //        <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6">
+        //          Discovery
+        //        </h3>
+        //        <p className=" sm:text-md  md:text-lg lg:text-xl mt-4">
+        //          Understanding your unique requirements and objectives.
+        //        </p>
+        //      </div>
+        //      <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
+        //        <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
+        //        <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
+        //          Development
+        //        </h3>
+        //        <p className="sm:text-md  md:text-lg lg:text-xl mt-4">
+        //          Bringing concepts to life with precision and expertise.
+        //        </p>
+        //      </div>
+        //      <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
+        //        <span className="w-full h-7  bg-[#e9bae3]     block mb-4 rounded-full"></span>
+        //        <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
+        //          Design
+        //        </h3>
+        //        <p className="sm:text-md  md:text-lg lg:text-xl mt-4">
+        //          Crafting intuitive and effective solutions tailored for you.
+        //        </p>
+        //      </div>
+        //      <div className="w-full max-w-md px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
+        //        <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
+        //        <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4">
+        //          Deployment
+        //        </h3>
+        //        <p className="sm:text-md  md:text-lg lg:text-xl mt-4 ">
+        //          Seamless integration and launch of your new solution.
+        //        </p>
+        //      </div>
+        //    </div>
+        //  </div>; 
