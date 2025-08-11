@@ -70,7 +70,7 @@ const Home = ()=>{
         </div>
 
         <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="w-5xl bg-slate-800 py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+          <div className="w-4xl bg-slate-800 py-0 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-4">
             <h1 className="text-blue-800 font-serif font-bold text-lg mb-6">
               What We Offer
             </h1>
@@ -111,6 +111,7 @@ const Home = ()=>{
 
         <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
           <div className=" w-5xl bg-slate-800 p-1 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+            <h2 className="text-lg font-serif text-blue-700 font-bold ml-10 sm:ml-0">Our Process</h2>
             <div className=" flex flex-col sm:flex-row  w-full  justify-center items-center gap-10">
               <div
                 className="w-sm  px-10 py-7   rounded 
@@ -229,7 +230,7 @@ const Home = ()=>{
               Our Commitment to Quality
             </h1>
             <div className="flex space-x-12 space-y-10">
-              <span className="w-1 rounded-b-xl bg-white block h-22 mt-4"></span>
+              <span className="w-1 rounded-b-xl bg-blue-700 block h-22 mt-4"></span>
 
               <h3 className="mt-10 text-xl sm:text-2xl text-white ">
                 "Quality is not an act, it is a habit."
