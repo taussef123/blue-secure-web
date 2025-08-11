@@ -70,7 +70,7 @@ const Home = ()=>{
         </div>
 
         <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-xl mb-30 sm:mb-0 sm:max-w-2xl bg-slate-800 py-10 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-4">
+          <div className="max-w-xl mb-60 sm:mb-0 sm:max-w-2xl bg-slate-800 py-10 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-4">
             <h1 className="text-blue-800 font-serif font-bold text-lg mb-6">
               What We Offer
             </h1>
