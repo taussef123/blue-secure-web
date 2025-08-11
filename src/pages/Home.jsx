@@ -3,7 +3,7 @@ import homeImage from "../assets/images/home.jpg";
 import Client1 from "../assets/images/client-1.avif";
 import Client2 from "../assets/images/client-2.jpg";
 import Client3 from "../assets/images/client-3.jpg";
-import ItPic from "../assets/images/service.png";
+import ItPic from "../assets/images/blue.jpg";
 const Home = ()=>{
     return (
       <>
@@ -39,7 +39,7 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="vision-section w-full min-h-screen bg-cyan-100  flex flex-col  justify-center items-center  ">
+        {/* <div className="vision-section w-full min-h-screen bg-cyan-100  flex flex-col  justify-center items-center  ">
           <div className="vision-container bg-cyan-200 w-xs md:w-xl lg:w-4xl p-10 md:p-10 lg:p-20 rounded-4xl hover:bg-cyan-400 shadow-lg border border-cyan-300 ">
             <div className=" space-y-5 sm:space-y-10">
               <h2 className=" text-cyan-700 text-2xl sm:text-5xl font-semibold ">
@@ -53,110 +53,110 @@ const Home = ()=>{
               </p>
             </div>
           </div>
+        </div> */}
+
+        <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="  w-3xl bg-slate-800 py-30 px-5 sm:px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-700 border-t-4 border-blue-700 border-b-4">
+            <h2 className=" text-blue-700 text-xl font-semibold  font-serif px-5 sm:px-0">
+              Our Vision
+            </h2>
+            <p className="text-sm sm:text-md px-5 sm:px-0 sm:text-md text-white mt-6 leading-8">
+              We envision a future where technology seamlessly integrates with
+              daily life, simplifying complex tasks and fostering greater
+              connection. Our commitment is to build intuitive and powerful
+              tools that empower individuals and businesses alike.
+            </p>
+          </div>
         </div>
-        <div className="offer-section w-full min-h-screen bg-slate-400 py-30   ">
-          <div className="space-y-14">
-            <h1 className="ml-20 mt-14 text-[#ff33be] text-3xl ">
+
+        <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="w-5xl bg-slate-800 py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+            <h1 className="text-blue-800 font-serif font-bold text-lg mb-6">
               What We Offer
             </h1>
-
-            <div className="  flex flex-col sm:flex-row  sm:space-x-10 space-y-10 sm:space-y-0  mr-10 p-20 ">
-              <div className="flex  flex-col items-starts  sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
-                <div className=" p-2">
-                  <i className="bx bx-bulb text-2xl text-pink-400"></i>
-                </div>
-
-                <div className="ml-10 py-6  pr-2">
-                  <h2 className="text-pink-400 text-xl md:text-2xl font-semibold mt-20">
-                    Innovative Solutions
-                  </h2>
-                  <p className="mt-6 text-sm md:text-md lg:text-lg leading-6 font-serif">
-                    Innovative Solutions Cutting-edge products designed to meet
-                    your evolving needs and challenges.
-                  </p>
-                </div>
+            <div className=" flex flex-col sm:flex-row  w-full  justify-center items-center gap-10">
+              <div className=" w-xs sm:w-1/4  space-y-6 sm:space-y-2 px-6 py-4 rounded-lg p-6 hover:border-blue-700 hover:shadow-blue-600 hover:border-2 hover:shadow-2xl transition-all duration-400 hover:scale-110 cursor-pointer">
+                <i className="bx bx-bulb text-2xl  text-blue-800"></i>
+                <h2 className="text-blue-700 text-lg mt-4 font-semibold ">
+                  Innovative Solutions
+                </h2>
+                <p className="mt-2 sm:mt-6  text-sm sm:text-md text-white font-serif leading-6 sm:leading-5">
+                  Innovative Solutions Cutting-edge products designed to meet
+                  your evolving needs and challenges.
+                </p>
               </div>
-              <div className="flex  flex-col items-start   sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
-                <div className="py-10  p-4 mr-[5px]">
-                  <i className="bx bxs-user text-2xl text-pink-400"></i>
-                </div>
-
-                <div className="ml-6 py-10  ">
-                  <h2 className="text-pink-400 text-xl sm:text-2xl  font-semibold mt-4">
-                    Reliable Performance
-                  </h2>
-                  <p className="mt-6 text-sm md:text-md lg:text-lg leading-6 font-serif">
-                    Built for enduring stability and smart security, our systems
-                    guarantee reliable performance across any scale.
-                  </p>
-                </div>
+              <div className=" w-xs sm:w-1/4 space-y-6 sm:space-y-2 px-6 py-4 rounded-lg p-6 hover:border-blue-700 hover:shadow-blue-600 hover:border-2 hover:shadow-2xl transition-all duration-400 hover:scale-110">
+                <i className="bx bxs-user text-2xl text-blue-800"></i>
+                <h2 className="text-blue-700 text-lg   font-semibold mt-4">
+                  Reliable Performance
+                </h2>
+                <p className="  mt-2 sm:mt-6 text-white   text-sm sm:text-md  leading-6 sm:leading-5 font-serif">
+                  Built for enduring stability and smart security, our systems
+                  guarantee reliable performance across any scale.
+                </p>
               </div>
-              <div className="flex  flex-col items-start   sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
-                <div className=" mb-20">
-                  <i className="bx bx-shield text-2xl p-2 text-pink-400"></i>
-                </div>
-
-                <div className="ml-6  py-10 pr-6">
-                  <h2 className="text-pink-400 text-xl sm:text-2xl  lg:text-lg  font-semibold ">
-                    User-Centric Design
-                  </h2>
-                  <p className="mt-6 text-lg sm:text-xl leading-6 font-serif">
-                    User-centric design experiences thoughtfully crafted to
-                    prioritize your comfort, simplify your interactions.
-                  </p>
-                </div>
+              <div className=" w-xs sm:w-1/4 space-y-6 sm:space-y-2 px-6 py-2 rounded-lg p-6 hover:border-blue-700 hover:shadow-blue-600 hover:border-2 hover:shadow-2xl transition-all duration-400 hover:scale-110 cursor-pointer">
+                <i className="bx bx-shield text-2xl  text-blue-800"></i>
+                <h2 className="text-blue-700 text-lg mt-4 font-semibold ">
+                  User-Centric Design
+                </h2>
+                <p className="mt-6 text-sm sm:text-md  text-white  font-serif leading-6 sm:leading-5">
+                  User-centric design experiences thoughtfully crafted to
+                  prioritize your comfort, simplify your interactions.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl  sm:w-full  p-4 sm:p-10 mt-2 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
-            <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold font-serif mb-5   text-white">
-              Our Process
-            </h1>
-            <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6  ">
-              <div className="w-full  px-10 py-12   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out  ">
-                <span className="w-full h-7 bg-[#e9bae3]    block mb-2 rounded-full"></span>
-                <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 text-white">
-                  Discovery
-                </h3>
-                <p className=" sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+        <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className=" w-5xl bg-slate-800 p-1 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+            <div className=" flex flex-col sm:flex-row  w-full  justify-center items-center gap-10">
+              <div
+                className="w-sm  px-10 py-7   rounded 
+              hover:shadow-2xl hover: shadow-blue-600  
+              hover:scale-115 
+              transition-all duration-500 hover:border-2 hover:border-blue-600 "
+              >
+                <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
+                <h2 className="  font-semibold mt-6 text-white">Discovery</h2>
+                <p className=" text-sm  mt-1 text-white">
                   Understanding your unique requirements and objectives.
                 </p>
               </div>
-              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-                <span className="w-full h-7  bg-[#e9bae3]     block mb-2 rounded-full"></span>
-                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 text-white">
+              <div className="w-sm  px-10 py-10   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-115 transition-all duration-500   hover:border-2 hover:border-blue-600 ">
+                <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
+                <h2 className=" text-lg font-semibold mt-6 text-white">
+                  Development
+                </h2>
+                <p className=" text-sm  mt-1 text-white">
+                  Bringing concepts to life with precision and expertise.
+                </p>
+              </div>
+              <div className="w-sm  px-10 py-10   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-115 transition-all duration-500 hover:border-2 hover:border-blue-700  ">
+                <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
+                <h2 className=" text-lg font-semibold mt-6 text-white">
                   Design
-                </h3>
-                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                </h2>
+                <p className="text-sm  mt-1 text-white">
                   Crafting intuitive and effective solutions tailored for you.
                 </p>
               </div>
-              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out  ">
-                <span className="w-full h-7  bg-[#e9bae3]  block mb-2 rounded-full"></span>
-                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
-                  Design
-                </h3>
-                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
-                  Crafting intuitive and effective solutions tailored for you.
-                </p>
-              </div>
-              <div className="w-full  px-10 py-10 hover:border hover:shadow-xl hover: shadow-cyan-950 hover:scale-105 transition-all 0.5s ease-in-out ">
-                <span className="w-full h-7 bg-[#e9bae3]    block mb-4 rounded-full"></span>
-                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
+              <div className="w-sm  px-10 py-10   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-115 transition-all duration-500 hover:border-2 hover:border-blue-600   ">
+                <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
+                <h2 className=" text-lg font-semibold mt-6 text-white">
                   Deployment
-                </h3>
-                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white ">
+                </h2>
+                <p className=" text-sm  mt-1 text-white">
                   Seamless integration and launch of your new solution.
                 </p>
               </div>
             </div>
           </div>
         </div>
+
         <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl  sm:w-full  p-4 sm:p-18 mt-6 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+          <div className="max-w-4xl  sm:w-full  p-4 sm:p-18 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
             <h1 className="  sm:text-2xl md:text-3xl lg:text-4xl text-white font-semibold p-4 font-serif">
               Why Choose Us?
             </h1>
@@ -187,8 +187,8 @@ const Home = ()=>{
           </div>
         </div>
         <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl  sm:w-full  p-7 sm:p-22 mt-6 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
-            <h1 className=" text-xl sm:text-4xl ml-10 text-[#fb33c0] font-serif">
+          <div className="max-w-4xl  sm:w-full  p-7 sm:p-22 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1 className=" text-xl sm:text-4xl ml-10 text-blue-700 font-serif">
               Client Success Stories
             </h1>
             <div className="flex justify-center items-center gap-x-5 sm:gap-x-12 p-9 sm:p-10 ">
@@ -224,7 +224,7 @@ const Home = ()=>{
         </div>
 
         <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl w-full  p-6 sm:p-22 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover: shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-16">
+          <div className="max-w-4xl w-full  p-6 sm:p-22 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover: shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-16">
             <h1 className=" text-2xl sm:text-4xl font-semibold text-white font-serif ml-5 sm:ml-0">
               Our Commitment to Quality
             </h1>
@@ -245,9 +245,9 @@ const Home = ()=>{
         </div>
 
         <div className=" w-full h-dvh flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl w-full mx-auto p-6 sm:p-22 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+          <div className="max-w-4xl w-full mx-auto p-6 sm:p-22 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
             <h1
-              className="   text-xl sm:text-4xl font-bold font-serif text-pink-300 p-2
+              className="   text-xl sm:text-4xl font-bold font-serif text-blue-700 p-2
             ml-10 sm:ml-0"
             >
               Stay Connected
@@ -274,8 +274,8 @@ const Home = ()=>{
           </div>
         </div>
         <div className=" question-section w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl w-full mx-auto p-6 sm:p-10 rounded-2xl bg-slate-700 hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
-            <h1 className=" text-[rgb(235,78,235)] text-2xl font-semibold p-5">
+          <div className="max-w-4xl w-full mx-auto p-6 sm:p-10 rounded-2xl bg-slate-800 hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
+            <h1 className=" text-blue-700 text-2xl font-semibold p-5">
               Frequently Asked Questions
             </h1>
             <div className="bg-pink-200 py-6 px-6 sm:py-8 sm:px-14 rounded-xl m-5 flex flex-col ">
@@ -298,28 +298,26 @@ const Home = ()=>{
           </div>
         </div>
         <div className="last-section w-full bg-slate-400 ">
-          <div className="w-full  min-h-[40rem]  bg-blue-200 flex items-center ">
-            <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center ">
-              <div className="left flex">
+          <div className="w-full  min-h-[40rem]  bg-slate-600 flex items-center ">
+            <div className="w-full max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center bg-slate-800 py-30 px-25 ">
+              <div className="left ">
                 <img
                   src={ItPic}
                   className="w-xs
-                sm:max-w-xl ml-10 sm:ml-0"
+                sm:max-w-xl ml-2 sm:ml-0 "
                 />
               </div>
-              <div className="right space-y-6">
-                <h1 className="ml-12 mt-4 sm:ml-0 sm:mt-0  text-xl sm:text-2xl text-blue-700 font-bold tracking-wider">
+              <div className="right space-y-8">
+                <h1 className="ml-1 mt-6  text-xl sm:text-2xl text-blue-700 font-bold tracking-wider">
                   Ready to Transform?
                 </h1>
-                <p className=" text-md sm:text-lg ml-3  leading-6 sm:leading-8 tracking-wider text-white">
+                <p className=" text-md text-white leading-6">
                   Take the first step towards achieving your goals. Contact us
                   today to discuss your project and discover how we can help you
                   succeed.
                 </p>
                 <button
-                  className="bg-blue-600 px-10 py-5 rounded-xl cursor-pointer text-xl font-semibold text-white hover:bg-white hover:text-blue-600 transition duration-300 ease-in hover:scale-110
-                ml-[6.5rem] sm:ml-0
-                "
+                  className="bg-blue-600 px-6 py-6 text-white font-semibold rounded hover:bg-blue-700 transition all duration-500 ease-in-out"
                 >
                   Get in Touch
                 </button>
@@ -327,6 +325,7 @@ const Home = ()=>{
             </div>
           </div>
         </div>
+        
       </>
     );
 }
@@ -490,3 +489,113 @@ export default Home;
         //      </div>
         //    </div>
         //  </div>; 
+
+
+
+
+        {
+          /* <div className="offer-section w-full min-h-screen bg-slate-400 py-30   ">
+          <div className="space-y-14">
+            <h1 className="ml-20 mt-14 text-[#ff33be] text-3xl ">
+              What We Offer
+            </h1>
+
+            <div className="  flex flex-col sm:flex-row  sm:space-x-10 space-y-10 sm:space-y-0  mr-10 p-20 ">
+              <div className="flex  flex-col items-starts  sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
+                <div className=" p-2">
+                  <i className="bx bx-bulb text-2xl text-pink-400"></i>
+                </div>
+
+                <div className="ml-10 py-6  pr-2">
+                  <h2 className="text-pink-400 text-xl md:text-2xl font-semibold mt-20">
+                    Innovative Solutions
+                  </h2>
+                  <p className="mt-6 text-sm md:text-md lg:text-lg leading-6 font-serif">
+                    Innovative Solutions Cutting-edge products designed to meet
+                    your evolving needs and challenges.
+                  </p>
+                </div>
+              </div>
+              <div className="flex  flex-col items-start   sm:w-1/3 rounded-lg p-6 hover:border-pink-300 hover:shadow-pink-400 hover:border-4 hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white">
+                <div className="py-10  p-4 mr-[5px]">
+                  <i className="bx bxs-user text-2xl text-pink-400"></i>
+                </div>
+
+                <div className="ml-6 py-10  ">
+                  <h2 className="text-pink-400 text-xl sm:text-2xl  font-semibold mt-4">
+                    Reliable Performance
+                  </h2>
+                  <p className="mt-6 text-sm md:text-md lg:text-lg leading-6 font-serif">
+                    Built for enduring stability and smart security, our systems
+                    guarantee reliable performance across any scale.
+                  </p>
+                </div>
+              </div>
+              <div className="flex  flex-col items-start   sm:w-1/3 leading-6 sm:leading-5">
+                <div className=" mb-20">
+                  <i className="bx bx-shield text-2xl p-2 text-pink-400"></i>
+                </div>
+
+                <div className="ml-6  py-10 pr-6">
+                  <h2 className="text-pink-400 text-xl sm:text-2xl  lg:text-lg  font-semibold ">
+                    User-Centric Design
+                  </h2>
+                  <p className="mt-6 text-lg sm:text-xl leading-6 font-serif">
+                    User-centric design experiences thoughtfully crafted to
+                    prioritize your comfort, simplify your interactions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */
+        }
+
+
+           {
+             /* <div className=" w-full h-screen flex items-center justify-center bg-slate-600 mt-2 ">
+          <div className="w-5xl  p-9 sm:p-10 bg-slate-700  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+            <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold font-serif  mb-1 sm:mb-5   text-white">
+              Our Process
+            </h1>
+            <div className=" sm: flex flex-col md:grid grid-cols-2 justify-items-center gap-6  ">
+              <div className="w-sm  px-10 py-10   rounded hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-full h-4 bg-blue-700    block  rounded-full"></span>
+                <h3 className=" sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-6 text-white">
+                  Discovery
+                </h3>
+                <p className=" sm:text-md  md:text-lg lg:text-xl  mt-1 text-white">
+                  Understanding your unique requirements and objectives.
+                </p>
+              </div>
+              <div className="w-sm  px-10 py-10    hover:border hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-sm h-4  bg-blue-700    block mb-2 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-4 text-white">
+                  Development
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                  Bringing concepts to life with precision and expertise.
+                </p>
+              </div>
+              <div className="w-sm  px-10 py-10    hover:border hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out  ">
+                <span className="w-sm h-4  bg-blue-700  block mb-2 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
+                  Design
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white">
+                  Crafting intuitive and effective solutions tailored for you.
+                </p>
+              </div>
+              <div className="w-sm  px-10 py-10    hover:border hover:shadow-2xl hover: shadow-blue-600  hover:scale-105 transition-all 0.5s ease-in-out ">
+                <span className="w-full h-7 bg-blue-700    block mb-2 rounded-full"></span>
+                <h3 className="sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 text-white">
+                  Deployment
+                </h3>
+                <p className="sm:text-md  md:text-lg lg:text-xl mt-2 text-white ">
+                  Seamless integration and launch of your new solution.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> */
+           }
