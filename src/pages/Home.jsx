@@ -104,9 +104,9 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className=" w-5xl bg-slate-800 p-1 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-10 sm:mt-0 overflow-x-hidden ">
-            <h2 className="text-lg font-serif text-blue-700 font-bold ml-10 sm:ml-0">
+        {/* <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
+          <div className="w-xl sm:w-4xl  py-0 sm:py-25 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-10 sm:mt-0 px-7 ">
+            <h2 className="text-lg font-serif text-blue-700 font-bold ml-10 sm:ml-7">
               Our Process
             </h2>
             <div className=" flex flex-col sm:flex-row  w-full  justify-center items-center gap-10">
@@ -151,7 +151,7 @@ const Home = ()=>{
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className=" w-full h-screen flex items-center justify-center bg-slate-600 overflow-y-auto ">
           <div className="max-w-4xl  sm:w-full h-[80vh] overflow-y-auto scrollbar-hide   p-4 sm:p-18 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4  ">
