@@ -1,4 +1,4 @@
-import homeImage from "../assets/images/home.jpg";
+import homeImage from "../assets/images/recenthome.jpg";
 // import bulb from "../assets/images/bulb.png"
 import Client1 from "../assets/images/client-1.avif";
 import Client2 from "../assets/images/client-2.jpg";
@@ -9,18 +9,13 @@ const Home = ()=>{
       <>
         <div className=" flex flex-col  md:grid md:grid-cols-1 lg:grid-cols-2 place-content-center place-items-center relative  w-full min-h-screen   bg-slate-400 ">
           <div className="   w-full max-w-xl p-5 ">
-            <h1 className="text-2xl mt-4 md:text-3xl lg:text-4xl font-bold text-white pr-6">
-              Welcome to Our World
+            <h1 className="text-lg  mr-2 mt-4 md:text-3xl lg:text-4xl font-bold text-white p-10">
+              Power Your Business with Cutting-Edge IT Solutions
             </h1>
             <p className=" text-sm  md:text-md lg:text-lg font-semibold   my-2">
-              Discover innovative solutions designed to elevate your experience.
+              Cloud, Websites, Software, and Security — All Under One Roof.
             </p>
-            <span className="text-md  md:text-xl lg:text-2xl font-bold text-white block my-2">
-              Your Partner in Digital Transformation
-            </span>
-            <p className=" text-sm  md:text-md lg:text-lg font-semibold   my-2">
-              Empowering business with cutting-edge IT solutions and services.
-            </p>
+
             <div className="flex flex-wrap justify-center w-full  p-4 gap-4">
               <button className="border-2 border-blue-700 px-6 py-3  text-blue-700  text-md  md:text-lg font-semibold bg-transparent cursor-pointer p-4 rounded-2xl hover:bg-blue-700 hover:text-white transition duration-200">
                 Learn More
@@ -110,8 +105,10 @@ const Home = ()=>{
         </div>
 
         <div className="w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className=" w-5xl bg-slate-800 p-1 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4">
-            <h2 className="text-lg font-serif text-blue-700 font-bold ml-10 sm:ml-0">Our Process</h2>
+          <div className=" w-5xl bg-slate-800 p-1 sm:py-20 px-10 rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 mt-10 sm:mt-0 overflow-x-hidden ">
+            <h2 className="text-lg font-serif text-blue-700 font-bold ml-10 sm:ml-0">
+              Our Process
+            </h2>
             <div className=" flex flex-col sm:flex-row  w-full  justify-center items-center gap-10">
               <div
                 className="w-sm  px-10 py-7   rounded 
@@ -156,8 +153,8 @@ const Home = ()=>{
           </div>
         </div>
 
-        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 ">
-          <div className="max-w-4xl  sm:w-full  p-4 sm:p-18 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4 ">
+        <div className=" w-full h-screen flex items-center justify-center bg-slate-600 overflow-y-auto ">
+          <div className="max-w-4xl  sm:w-full h-[80vh] overflow-y-auto scrollbar-hide   p-4 sm:p-18 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4  ">
             <h1 className="  sm:text-2xl md:text-3xl lg:text-4xl text-white font-semibold p-4 font-serif">
               Why Choose Us?
             </h1>
@@ -317,16 +314,13 @@ const Home = ()=>{
                   today to discuss your project and discover how we can help you
                   succeed.
                 </p>
-                <button
-                  className="bg-blue-600 px-6 py-6 text-white font-semibold rounded hover:bg-blue-700 transition all duration-500 ease-in-out"
-                >
+                <button className="bg-blue-600 px-6 py-6 text-white font-semibold rounded hover:bg-blue-700 transition all duration-500 ease-in-out">
                   Get in Touch
                 </button>
               </div>
             </div>
           </div>
         </div>
-        
       </>
     );
 }

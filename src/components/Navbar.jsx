@@ -36,3 +36,48 @@ const Navbar = ()=>{
     );
 }
 export default Navbar;
+
+
+// const Navbar = ()=>{
+//   return (
+//     <nav className="bg-slate-950">
+//       <div className=" mx-auto  w-[1080px] flex flex-col sm:flex-row items-center sm:justify-between px-4 py-4">
+//         <div className="flex justify-center sm:justify-start w-full mb-4 sm:mb-0">
+//           <a href="/">
+//             <img className="size-15 object-contain" src={logo} alt="logo image" />
+//           </a>
+//         </div>
+
+//         <ul className="flex  flex-wrap gap-x-6 gap-y-2 items-center  justify-center sm:justify-end w-full sm:w-auto">
+//           <li className="text-white py-2 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="/">Home</Link>
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//           <li className="text-white py-7 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="/services">Services</Link>
+
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//           <li className="text-white py-7 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="/aboutus">AboutUs</Link>
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//           <li className="text-white py-7 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="/contactus">ContactUs</Link>
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//           <li className="text-white py-7 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="signin">SignIn</Link>
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//           <li className="text-white py-7 hover:text-blue-600 cursor-pointer transition-all duration-200 relative group">
+//             <Link to="signup">SignUp</Link>
+//             <div className="absolute w-full h-1 bg-blue-600 bottom-[-10px] hidden group-hover:block transition-all duration-200"></div>
+//           </li>
+//         </ul>
+//       </div>
+//     </nav>
+//   );
+// }
+
+// export default Navbar;
