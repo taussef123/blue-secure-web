@@ -152,7 +152,7 @@ const Home = ()=>{
             </div>
           </div>
         </div> */}
-
+       
         <div className=" w-full h-screen flex items-center justify-center bg-slate-600 overflow-y-auto ">
           <div className="max-w-4xl  sm:w-full h-[80vh] overflow-y-auto scrollbar-hide   p-4 sm:p-18 mt-6 bg-slate-800  rounded-xl sm:rounded-3xl hover:shadow-2xl hover shadow-blue-600 border-t-4 border-blue-700 border-b-4  ">
             <h1 className="  sm:text-2xl md:text-3xl lg:text-4xl text-white font-semibold p-4 font-serif">
@@ -194,13 +194,13 @@ const Home = ()=>{
                 <div>
                   <img
                     src={Client1}
-                    className="w-4xl  sm:w-7xl rounded-2xl cursor-pointer hover:rounded-full  "
+                    className="w-4xl  sm:w-7xl rounded-2xl cursor-pointer hover:rounded-full "
                   />
                 </div>
                 <div>
                   <img
                     src={Client2}
-                    className="  w-4xl sm:w-7xl rounded-2xl hover:rounded-full  "
+                    className="w-4xl sm:w-7xl rounded-2xl hover:rounded-full"
                   />
                 </div>
                 <div>
