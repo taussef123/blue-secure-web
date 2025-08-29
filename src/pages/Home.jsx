@@ -38,11 +38,11 @@ const Home = ()=>{
         </div>
 
         <div className="bg-slate-950">
-          <div className=" w-full max-w-7xl mx-auto px-20 py-20 ">
+          <div className=" w-full max-w-7xl mx-auto px-20 py-20  ">
             <h2 className=" text-xl sm:text-2xl md :text-xl lg:text-4xl font-serif leading-5 text-blue-700">
               Our Process
             </h2>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   justify-center items-center px-14 py-12 gap-10">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   justify-center items-center px-0  sm:px-5 py-6 gap-10 ">
               <div
                 className="rounded-xl 
                px-4 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
@@ -61,7 +61,7 @@ const Home = ()=>{
                 className="rounded-xl 
                px-4 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
               hover:scale-110 
-              transition-all duration-500 cursor-pointer "
+              transition-all duration-500 cursor-pointer  "
               >
                 <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
                 <h2 className=" text-lg font-semibold mt-6 text-white font-serif">
@@ -73,9 +73,9 @@ const Home = ()=>{
               </div>
               <div
                 className="rounded-xl 
-               px-4 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
+               px-7 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
               hover:scale-110 
-              transition-all duration-500 cursor-pointer "
+              transition-all duration-500 cursor-pointer  "
               >
                 <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
                 <h2 className=" text-lg font-semibold mt-6 text-white font-serif">
@@ -87,12 +87,12 @@ const Home = ()=>{
               </div>
               <div
                 className="rounded-xl 
-               px-4 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
+               px-9 py-14 space-y-8  hover:shadow-2xl hover: shadow-blue-600  
               hover:scale-105 
-              transition-all duration-500 cursor-pointer "
+              transition-all duration-500 cursor-pointer  "
               >
                 <span className="w-full h-3 bg-blue-700    block  rounded-full"></span>
-                <h2 className=" text-lg font-semibold font-serif mt-6 text-white">
+                <h2 className=" text-lg font-semibold font-serif mt-6 text-white ">
                   Deployment
                 </h2>
                 <p className=" text-sm  mt-1 text-white">
@@ -103,12 +103,12 @@ const Home = ()=>{
           </div>
         </div>
         <div className="bg-slate-950 px-10">
-          <div className="w-full max-w-7xl mx-auto  px-12 py-10">
+          <div className="w-full max-w-7xl mx-auto  px-6 py-6 ">
             <h2 className="text-xl sm:text-2xl md :text-xl lg:text-4xl font-serif leading-5 text-blue-700">
               What We Offer
             </h2>
-            <div className="  grid grid-cols-1 md:grid-cols-3  justify-center items-center px-8 py-12 gap-6 ">
-              <div className="  px-12 py-13 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out">
+            <div className="  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3  justify-center items-center px-6 py-7 gap-6 ">
+              <div className="  px-6 py-6 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out ">
                 <i className="bx bx-bulb text-2xl  text-blue-800"></i>
                 <h2 className="text-xl sm:text-2xl md :text-xl font-serif leading-8 text-blue-700 ">
                   Innovative Solutions
@@ -118,7 +118,7 @@ const Home = ()=>{
                   your evolving needs and challenges.
                 </p>
               </div>
-              <div className="  px-12 py-10 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out">
+              <div className="  px-6 py-6 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out ">
                 <i className="bx bxs-user text-2xl text-blue-800"></i>
                 <h2 className="text-xl sm:text-2xl md :text-xl font-serif leading-8 text-blue-700 ">
                   Reliable Performance
@@ -128,7 +128,7 @@ const Home = ()=>{
                   guarantee reliable performance across any scale.
                 </p>
               </div>
-              <div className="  px-12 py-10 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out">
+              <div className="  px-6 py-6 rounded-3xl space-y-10 hover:shadow-lg hover:shadow-red-600 cursor-pointer transition-shadow duration-300 ease-in-out ">
                 <i className="bx bx-shield text-2xl  text-blue-800"></i>
                 <h2 className="text-xl sm:text-2xl md :text-xl font-serif leading-8 text-blue-700 ">
                   User-Centric Design
