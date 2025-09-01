@@ -31,7 +31,7 @@ const AboutUs = () => {
           <div className=" max-w-3xl w-full mx-auto">
             <img
               src={AboutImg}
-              className="hover:transition-shadow duration-200"
+              className="hover:drop-shadow-xl hover:drop-shadow-red-500 cursor-pointer hover:transition duration-300 rounded-xl"
             />
           </div>
         </div>
@@ -129,16 +129,28 @@ const AboutUs = () => {
           </p>
           <div className="  max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 justify-center gap-4 ">
             <div className=" w-full max-w-md mx-auto">
-              <img src={Port1} className="w-full   rounded-2xl" />
+              <img
+                src={Port1}
+                className="w-full   rounded-2xl hover:drop-shadow-xl hover:drop-shadow-red-500 cursor-pointer hover:transition duration-300"
+              />
             </div>
             <div className=" max-w-md w-full mx-auto">
-              <img className="rounded-2xl w-full" src={Port2} />
+              <img
+                className="rounded-2xl w-full hover:drop-shadow-xl hover:drop-shadow-red-500 cursor-pointer hover:transition duration-300"
+                src={Port2}
+              />
             </div>
             <div className=" max-w-md w-full mx-auto">
-              <img className="  rounded-2xl w-full" src={Port3} />
+              <img
+                className="  rounded-2xl w-full hover:drop-shadow-xl hover:drop-shadow-red-500 cursor-pointer hover:transition duration-300"
+                src={Port3}
+              />
             </div>
             <div className=" max-w-md w-full mx-auto">
-              <img className="  rounded-2xl w-full" src={Port4} />
+              <img
+                className="  rounded-2xl w-full hover:drop-shadow-xl hover:drop-shadow-red-500 cursor-pointer hover:transition duration-300"
+                src={Port4}
+              />
             </div>
           </div>
         </div>
@@ -441,8 +453,7 @@ const AboutUs = () => {
             <div className="px-8 py-9 rounded-xl space-y-4 hover:border-r-2 hover hover:border-blue-700">
               <h2 className="text-white">Adaptability</h2>
               <p className="text-base sm:text-lg md:text-xl pt-6 text-white leading-6 sm:leading-7">
-                We embrace change and continuously evolve with the digital
-                world.
+               Adaptability
               </p>
             </div>
           </div>
@@ -464,31 +475,39 @@ const AboutUs = () => {
           </h2>
           <div className="grid grid-cols-2 justify-center  px-4 py-6 gap-5">
             <div className=" border-t-2 border-b-2 hover border-blue-700 cursor-pointer rounded-xl space-y-4  px-4 py-4">
-              <h2 className="text-white">Client-Centric</h2>
-              <p className="text-base sm:text-lg md:text-xl  text-white leading-6 sm:leading-7">
+              <h2 className="text-lg font-semibold mt-6 text-white font-serif text-center">
+                Client-Centric
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl font-serif text-white leading-6 sm:leading-7">
                 Your success is our priority. We tailor solutions to your unique
                 goals.
               </p>
             </div>
             <div className=" border-t-2 border-b-2 border-blue-700 rounded-xl space-y-4  px-4 py-4">
-              <h2 className="text-white">Client-Centric</h2>
-              <p className="text-base sm:text-lg md:text-xl  text-white leading-6 sm:leading-7">
-                Your success is our priority. We tailor solutions to your unique
-                goals.
+              <h2 className="text-lg font-semibold mt-6 text-white font-serif text-center">
+                Excellence
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl font-serif  text-white leading-6 sm:leading-7">
+                We strive for perfection in every project, delivering top-tier
+                quality.
               </p>
             </div>
             <div className=" border-r-2  border-l-2 border-blue-700  hover hover:border-blue-700 rounded-xl space-y-4  px-4 py-4 cursor-pointer">
-              <h2 className="text-white">Client-Centric</h2>
-              <p className="text-base sm:text-lg md:text-xl  text-white leading-6 sm:leading-7">
-                Your success is our priority. We tailor solutions to your unique
-                goals.
+              <h2 className="text-lg font-semibold mt-6 text-white font-serif text-center">
+                Integrity
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl font-serif  text-white leading-6 sm:leading-7">
+                Honesty and transparency guide all our interactions and
+                decisions.
               </p>
             </div>
             <div className=" border-r-2  border-l-2 border-blue-700 rounded-xl space-y-4  px-4 py-4">
-              <h2 className="text-white">Client-Centric</h2>
-              <p className="text-base sm:text-lg md:text-xl  text-white leading-6 sm:leading-7">
-                Your success is our priority. We tailor solutions to your unique
-                goals.
+              <h2 className="text-lg font-semibold mt-6 text-white font-serif text-center">
+                Adaptability
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl font-serif  text-white leading-6 sm:leading-7">
+                We adjust swiftly to change, turning challenges into
+                opportunities for growth.
               </p>
             </div>
           </div>
@@ -501,7 +520,7 @@ const AboutUs = () => {
 export default AboutUs;
 
 
-
+// hello chatgpt think u r experience web designer and webdeveloper  who has 15 years experience build a Service section of the IT website including slides .This website gives so mant services like webdesigning ,web developmment cloud service ,software development etc so give me a prompt for gamma ai so it can make it according to your prompt
 
 
 // Important links
@@ -512,6 +531,8 @@ export default AboutUs;
 // https://gamma.app/docs/ev57iax75xutuzz
 
 // https://gamma.app/docs/40ow2aku1fjdnjf
+
+// https://gamma.app/docs/Empowering-Your-Digital-Future-sv65mghrjwznjkv?mode=doc
 
 
 
