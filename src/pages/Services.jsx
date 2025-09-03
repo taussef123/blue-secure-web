@@ -9,6 +9,10 @@ import UI from "../assets/images/ui.avif"
 import software from "../assets/images/soft1.png"
 import cloud from "../assets/images/cloudicon.png"
 import UID from "../assets/images/ui.jpg"
+import webdev from "../assets/images/webdev.jpg"
+import webdesign from "../assets/images/webdes.jpg"
+import softwares from "../assets/images/softwares.jpg"
+import mobiledev from "../assets/images/modiledev.jpg"
 const Service = () => {
   return (
     <>
@@ -179,6 +183,145 @@ const Service = () => {
           </div>
         </div>
       </div>
+      <div className="bg-slate-950">
+        <div className="max-w-7xl  px-6 py-6 mx-auto  ">
+          <div className=" flex flex-col sm:flex-row justify-evenly items-center  px-6 py-6 ">
+            <div className="flex  flex-col px-7 py-6  space-y-10 ">
+              <h2 className="text-xl text-center sm:text-2xl md :text-xl lg:text-4xl font-serif  text-blue-700 leading-[1.3]">
+                Web Development
+              </h2>
+              <div className=" border-4 border-l-blue-600  px-4 py-5 space-y-6 rounded-2xl ">
+                <h3 className="text-lg sm:text-xl md :text-xl lg:text-2xl font-serif  text-blue-700 leading-[1.3] text-center">
+                  Scalable & Robust Solutions
+                </h3>
+                <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                  From static sites to dynamic web apps, we build secure,
+                  scalable, and high-performance websites tailored to your
+                  business needs.
+                </p>
+              </div>
+              <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                We specialize in full-stack development, ensuring that both the
+                front-end (what users see) and back-end (server, database,
+                applications) are seamlessly integrated and optimized for
+                performance.
+              </p>
+            </div>
+            <div className="max-w-md">
+              <img
+                src={webdev}
+                className="w-xl rounded-2xl  hover:drop-shadow-xl hover:drop-shadow-[#fbbd8c] cursor-pointer hover:transition duration-300
+                mt-4 sm:mt-0
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-slate-950">
+        <div className="max-w-7xl  px-6 py-6 mx-auto  ">
+          <div className=" flex flex-col sm:flex-row justify-evenly items-center  px-6 py-6 ">
+            <div className="max-w-md">
+              <img
+                src={webdesign}
+                className="h-[20rem] sm:h-[30rem] sm:w-[40rem] rounded-2xl  hover:drop-shadow-xl hover:drop-shadow-[#0e5448] cursor-pointer hover:transition duration-300
+                mt-4 sm:mt-0
+                "
+              />
+            </div>
+            <div className="flex  flex-col px-7 py-6  space-y-10 ">
+              <h2 className="text-xl text-center sm:text-2xl md :text-xl lg:text-4xl font-serif  text-blue-700 leading-[1.3]">
+                Web Designing
+              </h2>
+              <div className=" border-4 border-r-blue-600  px-4 py-5 space-y-7 rounded-2xl ">
+                <h3 className="text-lg sm:text-xl md :text-xl lg:text-2xl font-serif  text-blue-700 leading-[1.3] text-center">
+                  Creative, Modern, User-Centric
+                </h3>
+                <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                  We design visually stunning, responsive websites with seamless
+                  navigation and intuitive UI/UX to give your brand a digital
+                  edge.
+                </p>
+              </div>
+              <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                Our approach focuses on creating an engaging online presence
+                that reflects your brand's unique identity and ensures an
+                exceptional user experience on any device.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-slate-950">
+        <div className="max-w-7xl  px-6 py-6 mx-auto  ">
+          <div className=" flex flex-col sm:flex-row justify-evenly items-center  px-6 py-6 ">
+            <div className="flex  flex-col px-7 py-6  space-y-10 ">
+              <h2 className="text-xl text-center sm:text-2xl md :text-xl lg:text-4xl font-serif  text-blue-700 leading-[1.3]">
+                Software Development
+              </h2>
+              <div className=" border-4 border-t-blue-600  px-4 py-5 space-y-7 rounded-2xl ">
+                <h3 className="text-lg sm:text-xl md :text-xl lg:text-2xl font-serif  text-blue-700 leading-[1.3] text-center">
+                  Custom Software for Every Business
+                </h3>
+                <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                  Our expert team develops tailored software solutions that
+                  optimize processes, automate tasks, and drive significant
+                  business growth.
+                </p>
+              </div>
+              <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                Whether you need a new enterprise resource planning (ERP) system
+                or a custom customer relationship management (CRM) tool, we
+                build software that fits your unique operational requirements.
+              </p>
+            </div>
+            <div className="max-w-4xl">
+              <img
+                src={softwares}
+                className="h-[20rem] sm:h-[30rem] sm:w-[40rem]  rounded-2xl  hover:drop-shadow-xl hover:drop-shadow-[#00116d] cursor-pointer hover:transition duration-300
+                mt-4 sm:mt-0
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-slate-950">
+        <div className="max-w-7xl  px-6 py-6 mx-auto  ">
+          <div className=" flex flex-col sm:flex-row justify-evenly items-center  px-6 py-6 ">
+            <div className="max-w-md">
+              <img
+                src={mobiledev}
+                className="h-[20rem] sm:h-[30rem] sm:w-[40rem] rounded-2xl  hover:drop-shadow-xl hover:drop-shadow-[#384258] cursor-pointer hover:transition duration-300
+                mt-4 sm:mt-0
+                "
+              />
+            </div>
+            <div className="flex  flex-col px-7 py-6  space-y-10 ">
+              <h2 className="text-xl text-center sm:text-2xl md :text-xl lg:text-4xl font-serif  text-blue-700 leading-[1.3]">
+                Mobile App Development
+              </h2>
+              <div className=" border-4 border-b-blue-600  px-4 py-5 space-y-7 rounded-2xl ">
+                <h3 className="text-lg sm:text-xl md :text-xl lg:text-2xl font-serif  text-blue-700 leading-[1.3] text-center">
+                  Apps That Engage & Perform
+                </h3>
+                <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                  We craft powerful Android and iOS applications with sleek
+                  design, smooth performance, and advanced features to keep your
+                  users engaged.
+                </p>
+              </div>
+              <p className=" text-[17px]  mt-1 text-white text-center font-serif leading-[1.7]">
+                From concept to deployment, our mobile app development services
+                cover the entire lifecycle, ensuring your app stands out in a
+                crowded marketplace and delivers exceptional user experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
@@ -186,27 +329,23 @@ const Service = () => {
 export default Service;
 
 
-// webdesigning
+// 
 
 
 
-// Creative, Modern, User-Centric
+// 
     // this two are in box
-// We design visually stunning, responsive websites with seamless navigation and intuitive UI/UX to give your brand a digital edge.
+// 
 
-// Our approach focuses on creating an engaging online presence that reflects your brand's unique identity and ensures an exceptional user experience on any device.
+// 
 
 
+//
 
-// Web Development
+// 
 
-// Scalable & Robust Solutions
-// this two are in box
 
-// From static sites to dynamic web apps, we build secure, scalable, and high-performance websites tailored to your business needs.
-
-// We specialize in full-stack development, ensuring that both the front-end (what users see) and back-end (server, database, applications) are seamlessly integrated and optimized for performance.
-
+//
 
 
 // Cloud Services
@@ -229,27 +368,26 @@ export default Service;
 
 // Migrating to the cloud can significantly reduce IT overheads and increase operational agility. We manage your cloud infrastructure so you can focus on core business activities.
 
-// Software Development
+//
 
-// Custom Software for Every Business
+// 
 
-// Our expert team develops tailored software solutions that optimize processes, automate tasks, and drive significant business growth.
+//
 
-// Whether you need a new enterprise resource planning (ERP) system or a custom customer relationship management (CRM) tool, we build software that fits your unique operational requirements.
-
-
+// 
 
 
 
 
-// Mobile App Development
 
-// Apps That Engage & Perform
 
-// We craft powerful Android and iOS applications with sleek design, smooth performance, and advanced features to keep your users engaged.
+// 
 
-// From concept to deployment, our mobile app development services cover the entire lifecycle, ensuring your app stands out in a crowded marketplace and delivers exceptional user experiences.
+//
 
+//
+
+// 
 
 
 // Cybersecurity Solutions
